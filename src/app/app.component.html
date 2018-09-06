@@ -1,28 +1,22 @@
-<div id="wrapper">
-  <nav id="sidebar">
-    <div class="sidebar-header">
+<nav id="sidebar">
+  <div id="header">
+    <a routerLink="/">
+      <i class="fa fa-home"></i>Home
+    </a>
+  </div>
+  <div id="main">
+    <a routerLink="/about-me">
+      <i class="fa fa-user"></i>About Me
+    </a>
+    <a routerLink="/education">
+      <i class="fa fa-graduation-cap"></i>Education
+    </a>
+    <a routerLink="/experience">
+      <i class="fa fa-briefcase"></i>Experience
+    </a>
+  </div>
+</nav>
 
-    </div>
-    <ul class="list-unstyled components">
-      <li>
-        <a routerLink="/about-me">
-          <i class="fa fa-user"></i>About Me
-        </a>
-      </li>
-      <li>
-        <a routerLink="/education">
-          <i class="fa fa-graduation-cap"></i>Education
-        </a>
-      </li>
-      <li>
-        <a routerLink="/experience">
-          <i class="fa fa-briefcase"></i>Experience
-        </a>
-      </li>
-    </ul>
-  </nav>
-</div>
-<p>
-  app works!
-</p>
-<router-outlet id="content"></router-outlet>
+<main>
+  <router-outlet></router-outlet>
+</main>

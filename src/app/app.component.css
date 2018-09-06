@@ -1,0 +1,59 @@
+::ng-deep :root {
+  --sidebar-width: 11vh;
+  --w-yellow: #EAC435;
+}
+
+#sidebar {
+  height: 100%;
+  width: var(--sidebar-width);
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--dark);
+  overflow-x: hidden;
+  box-shadow: 0 0 2.5vh 0;
+}
+
+#sidebar > #header {
+
+}
+
+#sidebar > #header > a {
+  color: white;
+}
+
+#sidebar > #header > a:hover {
+  background-color: var(--w-yellow);
+}
+
+#sidebar > #main > a {
+  transform: translate(0%, 250%);
+}
+
+#sidebar > #main > a:hover {
+  background-color: var(--gray);
+}
+
+#sidebar a {
+  text-decoration: none;
+  padding: 2vh 1vh;
+  display: block;
+  text-align: center;
+  font-size: 0.85em;
+  color: var(--w-yellow);
+}
+
+#sidebar a i {
+  margin-right: 0;
+  display: block;
+  margin-bottom: 0.75vh;
+  font-size: 1.5em;
+}
+
+main {
+  margin-left: var(--sidebar-width); /* Same as the width of the sidenav */
+  padding: 2.5vh;
+  min-height: 100vh;
+  background-color: var(--w-yellow);
+}

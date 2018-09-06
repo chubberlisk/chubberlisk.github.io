@@ -23,10 +23,4 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('Wen Ting Wang');
   }));
-
-  it('should contain "app works!"', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const aboutMeElement: HTMLElement = fixture.nativeElement;
-    expect(aboutMeElement.textContent).toContain('app works!');
-  });
 });
