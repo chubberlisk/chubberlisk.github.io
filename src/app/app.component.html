@@ -17,6 +17,40 @@
   </div>
 </nav>
 
+<div class="pos-f-t" id="w-navbar">
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </nav>
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="/" id="home">
+            <i class="fa fa-home" style="margin-right: 1.35vh;"></i>Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"routerLink="/about-me">
+            <i class="fa fa-user" style="margin-right: 1.8vh;"></i>About Me
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/education">
+            <i class="fa fa-graduation-cap" style="margin-right: 1vh;"></i>Education
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/experience">
+            <i class="fa fa-briefcase"style="margin-right: 1.5vh;"></i>Experience
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 <main>
   <router-outlet></router-outlet>
 </main>

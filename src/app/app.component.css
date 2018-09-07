@@ -1,5 +1,5 @@
 ::ng-deep :root {
-  --sidebar-width: 11vh;
+  --sidebar-width: 10vh;
   --w-yellow: #EAC435;
 }
 
@@ -37,7 +37,7 @@
 
 #sidebar a {
   text-decoration: none;
-  padding: 2vh 1vh;
+  padding: 2.5vh 1vh;
   display: block;
   text-align: center;
   font-size: 0.85em;
@@ -51,9 +51,45 @@
   font-size: 1.5em;
 }
 
+#w-navbar {
+  display: none;
+}
+
 main {
   margin-left: var(--sidebar-width); /* Same as the width of the sidenav */
   padding: 2.5vh;
   min-height: 100vh;
   background-color: var(--w-yellow);
+}
+
+/* Medium devices and smaller */
+@media only screen and (max-width: 768px) {
+  #sidebar {
+    display: none;
+  }
+
+  main {
+    margin-left: 0;
+    min-height: 100vh;
+  }
+
+  #w-navbar {
+    display: block;
+  }
+
+  #w-navbar > nav {
+    box-shadow: 0 0 2.5vh 0;
+  }
+
+  #w-navbar a {
+    color: var(--w-yellow);
+  }
+
+  #w-navbar a#home {
+    color: white;
+  }
+
+  .navbar-toggler {
+    border: none;
+  }
 }
