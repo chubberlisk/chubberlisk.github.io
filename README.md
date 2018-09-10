@@ -17,4 +17,4 @@ To view current deployment, visit https://chubberlisk.github.io.
   convention: `feature/<feature-name>`.
 - A feature branch is created from the `release` branch.
 - Once the feature is completed, a pull request must be made to add to the
-  `release branch`.
+  `release` branch.
