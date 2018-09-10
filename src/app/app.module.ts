@@ -5,17 +5,11 @@ import { environment } from '../environments/environment';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './/app-routing.module';
-import { AboutMeComponent } from './about-me/about-me.component';
-import { EducationComponent } from './education/education.component';
-import { ExperienceComponent } from './experience/experience.component';
 import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AboutMeComponent,
-    EducationComponent,
-    ExperienceComponent,
     HomeComponent
   ],
   imports: [

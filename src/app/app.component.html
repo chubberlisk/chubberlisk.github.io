@@ -1,56 +1,40 @@
-<nav id="sidebar">
-  <div id="header">
-    <a routerLink="/">
-      <i class="fa fa-home"></i>Home
-    </a>
-  </div>
-  <div id="main">
-    <a routerLink="/about-me">
-      <i class="fa fa-user"></i>About Me
-    </a>
-    <a routerLink="/education">
-      <i class="fa fa-graduation-cap"></i>Education
-    </a>
-    <a routerLink="/experience">
-      <i class="fa fa-briefcase"></i>Experience
-    </a>
-  </div>
-</nav>
-
-<div class="pos-f-t" id="w-navbar">
-  <nav class="navbar navbar-dark bg-dark">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  </nav>
-  <div class="collapse" id="navbarToggleExternalContent">
-    <div class="bg-dark p-4">
-      <ul class="nav flex-column">
-        <li class="nav-item">
-          <a class="nav-link active" routerLink="/" id="home">
-            <i class="fa fa-home" style="margin-right: 1.35vh;"></i>Home
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"routerLink="/about-me">
-            <i class="fa fa-user" style="margin-right: 1.8vh;"></i>About Me
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/education">
-            <i class="fa fa-graduation-cap" style="margin-right: 1vh;"></i>Education
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/experience">
-            <i class="fa fa-briefcase"style="margin-right: 1.5vh;"></i>Experience
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-
 <main>
   <router-outlet></router-outlet>
 </main>
+
+<footer>
+  <div class="container" id="links">
+    <div class="row">
+      <div class="col-md text-center">
+        <a class="hvr-wobble-horizontal" href="#landing">Landing</a>
+      </div>
+    </div>
+  </div>
+  <div class="row" >
+    <div class="col-md col-sm-6 text-center">
+      <a class="hvr-wobble-horizontal" href="#about-me">A Bit About Me</a>
+    </div>
+    <div class="col-md col-sm-6 text-center">
+      <a class="hvr-wobble-horizontal" href="#education">Education</a>
+    </div>
+    <div class="col-md col-sm-6 text-center">
+      <a class="hvr-wobble-horizontal" href="#experience">Experience</a>
+    </div>
+    <div class="col-md col-sm-6 text-center">
+      <a class="hvr-wobble-horizontal" href="#contact-me">Contact Me</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col text-center">
+      <p>
+        <a href="https://github.com/chubberlisk"><i class="fab fa-github"></i></a>
+      </p>
+      <p>
+        Just a little website for this ting.
+      </p>
+    </div>
+  </div>
+  <div class="text-center">
+    © 2018 Copyright: Wen Ting Wang
+  </div>
+</footer>
