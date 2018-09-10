@@ -11,7 +11,8 @@ import { SillyComponent } from './silly/silly.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    SillyComponent
   ],
   imports: [
     BrowserModule,

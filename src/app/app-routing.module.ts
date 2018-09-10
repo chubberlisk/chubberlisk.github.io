@@ -6,9 +6,11 @@ import {
 } from '@angular/router';
 
 import { HomeComponent } from './home/home.component';
+import { SillyComponent } from './silly/silly.component';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent }
+  { path: '', component: HomeComponent },
+  { path: 'silly', component: SillyComponent }
 ];
 
 @NgModule({
