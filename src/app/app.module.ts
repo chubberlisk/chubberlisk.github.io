@@ -8,13 +8,15 @@ import { AppRoutingModule } from './/app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { SillyComponent } from './silly/silly.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SillyComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
