@@ -7,7 +7,6 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://chubberlisk.github.io/favicon.ico",
         "https://chubberlisk.github.io/index.html"
       ],
       "patterns": []
@@ -16,14 +15,30 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
-      "urls": [],
+      "urls": [
+        "https://chubberlisk.github.io/assets/icons/icon-128x128.png",
+        "https://chubberlisk.github.io/assets/icons/icon-144x144.png",
+        "https://chubberlisk.github.io/assets/icons/icon-152x152.png",
+        "https://chubberlisk.github.io/assets/icons/icon-192x192.png",
+        "https://chubberlisk.github.io/assets/icons/icon-384x384.png",
+        "https://chubberlisk.github.io/assets/icons/icon-512x512.png",
+        "https://chubberlisk.github.io/assets/icons/icon-72x72.png",
+        "https://chubberlisk.github.io/assets/icons/icon-96x96.png"
+      ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://chubberlisk.github.io/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://chubberlisk.github.io/index.html": "7ea5d656eff2e154783f824173a918a7a3fa902c"
+    "https://chubberlisk.github.io/assets/icons/icon-128x128.png": "f05b5bcb63e30cfd50c899cd3f3ea96299f4a12d",
+    "https://chubberlisk.github.io/assets/icons/icon-144x144.png": "326d2a36fcdd9f4d9d32dd1e885b79cac150c76b",
+    "https://chubberlisk.github.io/assets/icons/icon-152x152.png": "4c0716e46f0dcf2ccc72a4fac612a9f157024530",
+    "https://chubberlisk.github.io/assets/icons/icon-192x192.png": "d61cbff2c0e0ed452edd7aac97060521a8fc8be7",
+    "https://chubberlisk.github.io/assets/icons/icon-384x384.png": "34d461540aa273b1cd67c14c629d5134d722ce1f",
+    "https://chubberlisk.github.io/assets/icons/icon-512x512.png": "7def413b80573f2eb492bd85e6ab86170fd6f791",
+    "https://chubberlisk.github.io/assets/icons/icon-72x72.png": "efcbb2a62e664982f341cc7750e2a4250591ed60",
+    "https://chubberlisk.github.io/assets/icons/icon-96x96.png": "7d84da826b06943c2a35169d1864bc7eec6c6243",
+    "https://chubberlisk.github.io/index.html": "87f37727270cce0186ee18e0bede29b9baf4a95e"
   },
   "navigationUrls": [
     {
