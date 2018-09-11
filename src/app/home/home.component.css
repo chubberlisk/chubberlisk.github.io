@@ -1,12 +1,3 @@
-section {
-  width: 100%;
-  min-height: 80vh;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 section #content h2 {
   font-size: 4em;
 }
@@ -16,9 +7,6 @@ section #content h2 {
   text-align: center;
   font-family: 'Amatic SC', cursive;
   font-size: 1.5em;
-  /* position: absolute;
-  bottom: 0; */
-  /* margin-bottom: 5vh; */
 }
 
 #click-me a {

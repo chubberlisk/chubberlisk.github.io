@@ -14,3 +14,12 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Amatic SC', cursive;
 }
+
+section {
+  width: 100%;
+  min-height: 80vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
