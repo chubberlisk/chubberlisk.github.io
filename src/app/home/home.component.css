@@ -1,38 +1,24 @@
-section #content h2 {
-  font-size: 4em;
-}
-
 #click-me {
-  height: 20vh;
+  height: 15vh;
   text-align: center;
   font-family: 'Amatic SC', cursive;
   font-size: 1.5em;
 }
 
-#click-me a {
-  text-decoration: none;
-  color: white;
-}
-
 #click-me a i {
   display: block;
   margin-bottom: 0.75vh;
-  text-decoration: none;
-  color: white;
 }
 
-section#landing #content h1 {
+section#landing h1 {
   text-align: center;
   font-size: 5em;
 }
 
 /* Mobile optimisation */
 @media only screen and (max-width: 768px) {
-  section #content h2 {
-    font-size: 2em;
-  }
-
-  section#landing #content h1 {
-    font-size: 2.5em;
+  section#landing h1 {
+    text-align: center;
+    font-size: 3em;
   }
 }
