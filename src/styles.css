@@ -46,6 +46,10 @@ a:hover {
   color: white;
 }
 
+.hvr-pulse {
+  vertical-align: baseline;
+}
+
 /* Mobile optimisation */
 @media only screen and (max-width: 768px) {
   h1 {

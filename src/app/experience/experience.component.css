@@ -1,0 +1,23 @@
+.circle {
+  background-color: var(--green);
+}
+
+.how-it-works.row .col-2::after {
+  border-left: 3px solid var(--green);
+}
+
+.timeline hr {
+  border-top: 3px solid var(--green);
+}
+
+.timeline .corner {
+  border: 3px solid var(--green);
+}
+
+a[data-toggle="tooltip"] {
+  color: white;
+}
+
+a[data-toggle="tooltip"]:hover {
+  color: white;
+}
