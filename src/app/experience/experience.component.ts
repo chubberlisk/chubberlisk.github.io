@@ -1,14 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-education',
-  templateUrl: './education.component.html',
+  selector: 'app-experience',
+  templateUrl: './experience.component.html',
   styleUrls: [
     '../../assets/stylesheets/timeline.css',
-    './education.component.css'
+    './experience.component.css'
   ]
 })
-export class EducationComponent implements OnInit {
+export class ExperienceComponent implements OnInit {
 
   constructor() { }
 
