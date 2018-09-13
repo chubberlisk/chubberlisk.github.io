@@ -10,6 +10,7 @@ import { SillyComponent } from './silly/silly.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ExperienceComponent } from './experience/experience.component';
     SillyComponent,
     NotFoundComponent,
     EducationComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
