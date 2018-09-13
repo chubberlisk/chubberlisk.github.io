@@ -7,21 +7,3 @@ main {
   min-height: 100vh;
   background-color: var(--w-yellow);
 }
-
-footer {
-  padding: 2.5vh;
-  background-color: var(--dark);
-  color: white;
-  min-width: 100%;
-}
-
-footer #links a {
-  text-decoration: none;
-  color: white;
-  font-family: 'Amatic SC', cursive;
-  font-size: 1.5em;
-}
-
-footer #links {
-  margin-bottom: 2.5vh;
-}
