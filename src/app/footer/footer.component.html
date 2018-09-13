@@ -2,18 +2,18 @@
   <div id="links">
     <div class="row">
       <div class="col-md text-center">
-        <a class="hvr-wobble-vertical" href="#landing">Landing</a>
+        <a class="hvr-wobble-vertical" href="#landing" (click)="setTitle('')">Landing</a>
       </div>
     </div>
     <div class="row">
       <div class="col-md text-center">
-        <a class="hvr-wobble-horizontal" href="#about-me">A Bit About Me</a>
+        <a class="hvr-wobble-horizontal" href="#a-bit-about-me" (click)="setTitle('A Bit About Me')">A Bit About Me</a>
       </div>
       <div class="col-md text-center">
-        <a class="hvr-wobble-horizontal" href="#education">Education</a>
+        <a class="hvr-wobble-horizontal" href="#education" (click)="setTitle('Education')">Education</a>
       </div>
       <div class="col-md text-center">
-        <a class="hvr-wobble-horizontal" href="#experience">Experience</a>
+        <a class="hvr-wobble-horizontal" href="#experience" (click)="setTitle('Experience')">Experience</a>
       </div>
     </div>
   </div>
