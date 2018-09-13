@@ -16,6 +16,7 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
+        "https://chubberlisk.github.io/assets/cv_wen_ting_wang.pdf",
         "https://chubberlisk.github.io/assets/icons/icon-128x128.png",
         "https://chubberlisk.github.io/assets/icons/icon-144x144.png",
         "https://chubberlisk.github.io/assets/icons/icon-152x152.png",
@@ -31,6 +32,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "https://chubberlisk.github.io/assets/cv_wen_ting_wang.pdf": "b7c70afb7d0d568fe9e04d80171e9ba243ca621e",
     "https://chubberlisk.github.io/assets/icons/icon-128x128.png": "f05b5bcb63e30cfd50c899cd3f3ea96299f4a12d",
     "https://chubberlisk.github.io/assets/icons/icon-144x144.png": "326d2a36fcdd9f4d9d32dd1e885b79cac150c76b",
     "https://chubberlisk.github.io/assets/icons/icon-152x152.png": "4c0716e46f0dcf2ccc72a4fac612a9f157024530",
@@ -40,7 +42,7 @@
     "https://chubberlisk.github.io/assets/icons/icon-72x72.png": "efcbb2a62e664982f341cc7750e2a4250591ed60",
     "https://chubberlisk.github.io/assets/icons/icon-96x96.png": "7d84da826b06943c2a35169d1864bc7eec6c6243",
     "https://chubberlisk.github.io/assets/stylesheets/timeline.css": "e68dd5e3c7edfb6c5fd1ba0559910c65ed65faa3",
-    "https://chubberlisk.github.io/index.html": "b82c39ca733feab0baf91da678e4d0ba3d954ea1"
+    "https://chubberlisk.github.io/index.html": "d95c6a5e5911d531167a4df6ab23bb9508b3b760"
   },
   "navigationUrls": [
     {
