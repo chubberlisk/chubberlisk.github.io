@@ -7,13 +7,13 @@
   </div>
 </section>
 <div class="container-fluid click-me">
-  <a class="hvr-wobble-bottom" href="#about-me">
+  <a class="hvr-wobble-bottom" href="#a-bit-about-me" (click)="setTitle('A Bit About Me')">
     <b><i class="fa fa-angle-down"></i>Let's go down</b>
     <br /><small>downtown...</small>
   </a>
 </div>
 
-<section id="about-me">
+<section id="a-bit-about-me">
   <div class="container">
     <h2  class="hvr-wobble-vertical"><i class="fa fa-user"></i> A bit about me</h2>
     <p>
@@ -45,7 +45,7 @@
   </div>
 </section>
 <div class="container-fluid click-me">
-  <a class="hvr-wobble-bottom" href="#education">
+  <a class="hvr-wobble-bottom" href="#education" (click)="setTitle('Education')">
     <b><i class="fa fa-angle-down"></i>Let's go down</b>
   </a>
 </div>
@@ -54,7 +54,7 @@
   <app-education></app-education>
 </section>
 <div class="container-fluid click-me">
-  <a class="hvr-wobble-bottom" href="#experience">
+  <a class="hvr-wobble-bottom" href="#experience" (click)="setTitle('Experience')">
     <b><i class="fa fa-angle-down"></i>Let's go down</b>
   </a>
 </div>
@@ -65,7 +65,8 @@
   </div>
 </section>
 <div class="container-fluid click-me">
-  <a class="hvr-wobble-top" href="#landing">
+  <a class="hvr-wobble-top" href="#landing" (click)="setTitle('')">
     <b><i class="fab fa-fly"></i>Fly me to the top please!</b>
+    <br /><small>P.S there's a footer...</small>
   </a>
 </div>
