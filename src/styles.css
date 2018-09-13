@@ -50,6 +50,10 @@ a:hover {
   vertical-align: baseline;
 }
 
+.hvr-buzz-out {
+  vertical-align: baseline;
+}
+
 /* Mobile optimisation */
 @media only screen and (max-width: 768px) {
   h1 {
