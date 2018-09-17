@@ -2,7 +2,6 @@
   height: 15vh;
   text-align: center;
   font-family: 'Amatic SC', cursive;
-  font-size: 1.5em;
 }
 
 .click-me a i {
@@ -12,13 +11,25 @@
 
 section#landing h1 {
   text-align: center;
-  font-size: 5em;
 }
 
-/* Mobile optimisation */
-@media only screen and (max-width: 768px) {
-  section#landing h1 {
-    text-align: center;
-    font-size: 3em;
+/* Extra small devices */
+@media only screen and (max-width: 320px) {
+  .click-me {
+    font-size: 1.15em;
+  }
+}
+
+/* Small devices */
+@media only screen and (min-width: 321px) {
+  .click-me {
+    font-size: 1.25em;
+  }
+}
+
+/* Medium devices */
+@media only screen and (min-width: 768px) {
+  .click-me {
+    font-size: 1.75em;
   }
 }

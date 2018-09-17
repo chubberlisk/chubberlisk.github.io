@@ -13,11 +13,3 @@
 .timeline .corner {
   border: 3px solid var(--green);
 }
-
-a[data-toggle="tooltip"] {
-  color: white;
-}
-
-a[data-toggle="tooltip"]:hover {
-  color: white;
-}
