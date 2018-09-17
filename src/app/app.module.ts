@@ -11,6 +11,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { FooterComponent } from './footer/footer.component';
+import { ABitAboutMeComponent } from './a-bit-about-me/a-bit-about-me.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FooterComponent } from './footer/footer.component';
     NotFoundComponent,
     EducationComponent,
     ExperienceComponent,
-    FooterComponent
+    FooterComponent,
+    ABitAboutMeComponent
   ],
   imports: [
     BrowserModule,
