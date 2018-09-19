@@ -9,8 +9,7 @@
         "/index.html",
         "/*.bundle.css",
         "/*.bundle.js",
-        "/*.chunk.js",
-        "ngsw.json"
+        "/*.chunk.js"
       ]
     }
   }, {
