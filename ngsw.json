@@ -27,7 +27,12 @@
         "https://wentingwang.co.uk/assets/icons/icon-96x96.png",
         "https://wentingwang.co.uk/assets/stylesheets/timeline.css"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Lato",
+        "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Amatic\\+SC",
+        "https:\\/\\/use\\.fontawesome\\.com\\/releases\\/v5\\.3\\.1\\/css\\/all\\.css",
+        "https:\\/\\/cdnjs\\.cloudflare\\.com\\/ajax\\/libs\\/hover\\.css\\/2\\.3\\.1\\/css\\/hover\\.css"
+      ]
     }
   ],
   "dataGroups": [],
