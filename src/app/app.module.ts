@@ -27,7 +27,7 @@ import { ABitAboutMeComponent } from './a-bit-about-me/a-bit-about-me.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    environment.production ? ServiceWorkerModule.register('ngsw-worker.js') : []
+    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [
     Title
