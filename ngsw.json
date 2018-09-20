@@ -1,13 +1,13 @@
 {
   "configVersion": 1,
-  "index": "wentingwang.co.uk/index.html",
+  "index": "https://wentingwang.co.uk/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "wentingwang.co.uk/index.html"
+        "https://wentingwang.co.uk/index.html"
       ],
       "patterns": []
     },
@@ -16,16 +16,16 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "wentingwang.co.uk/assets/cv_wen_ting_wang.pdf",
-        "wentingwang.co.uk/assets/icons/icon-128x128.png",
-        "wentingwang.co.uk/assets/icons/icon-144x144.png",
-        "wentingwang.co.uk/assets/icons/icon-152x152.png",
-        "wentingwang.co.uk/assets/icons/icon-192x192.png",
-        "wentingwang.co.uk/assets/icons/icon-384x384.png",
-        "wentingwang.co.uk/assets/icons/icon-512x512.png",
-        "wentingwang.co.uk/assets/icons/icon-72x72.png",
-        "wentingwang.co.uk/assets/icons/icon-96x96.png",
-        "wentingwang.co.uk/assets/stylesheets/timeline.css"
+        "https://wentingwang.co.uk/assets/cv_wen_ting_wang.pdf",
+        "https://wentingwang.co.uk/assets/icons/icon-128x128.png",
+        "https://wentingwang.co.uk/assets/icons/icon-144x144.png",
+        "https://wentingwang.co.uk/assets/icons/icon-152x152.png",
+        "https://wentingwang.co.uk/assets/icons/icon-192x192.png",
+        "https://wentingwang.co.uk/assets/icons/icon-384x384.png",
+        "https://wentingwang.co.uk/assets/icons/icon-512x512.png",
+        "https://wentingwang.co.uk/assets/icons/icon-72x72.png",
+        "https://wentingwang.co.uk/assets/icons/icon-96x96.png",
+        "https://wentingwang.co.uk/assets/stylesheets/timeline.css"
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Lato",
@@ -37,17 +37,17 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "wentingwang.co.uk/assets/cv_wen_ting_wang.pdf": "b7c70afb7d0d568fe9e04d80171e9ba243ca621e",
-    "wentingwang.co.uk/assets/icons/icon-128x128.png": "f05b5bcb63e30cfd50c899cd3f3ea96299f4a12d",
-    "wentingwang.co.uk/assets/icons/icon-144x144.png": "326d2a36fcdd9f4d9d32dd1e885b79cac150c76b",
-    "wentingwang.co.uk/assets/icons/icon-152x152.png": "4c0716e46f0dcf2ccc72a4fac612a9f157024530",
-    "wentingwang.co.uk/assets/icons/icon-192x192.png": "d61cbff2c0e0ed452edd7aac97060521a8fc8be7",
-    "wentingwang.co.uk/assets/icons/icon-384x384.png": "34d461540aa273b1cd67c14c629d5134d722ce1f",
-    "wentingwang.co.uk/assets/icons/icon-512x512.png": "7def413b80573f2eb492bd85e6ab86170fd6f791",
-    "wentingwang.co.uk/assets/icons/icon-72x72.png": "efcbb2a62e664982f341cc7750e2a4250591ed60",
-    "wentingwang.co.uk/assets/icons/icon-96x96.png": "7d84da826b06943c2a35169d1864bc7eec6c6243",
-    "wentingwang.co.uk/assets/stylesheets/timeline.css": "e68dd5e3c7edfb6c5fd1ba0559910c65ed65faa3",
-    "wentingwang.co.uk/index.html": "af8b3a5ea3a17a71ca0ddab4fe19eca1df7fd8a4"
+    "https://wentingwang.co.uk/assets/cv_wen_ting_wang.pdf": "b7c70afb7d0d568fe9e04d80171e9ba243ca621e",
+    "https://wentingwang.co.uk/assets/icons/icon-128x128.png": "f05b5bcb63e30cfd50c899cd3f3ea96299f4a12d",
+    "https://wentingwang.co.uk/assets/icons/icon-144x144.png": "326d2a36fcdd9f4d9d32dd1e885b79cac150c76b",
+    "https://wentingwang.co.uk/assets/icons/icon-152x152.png": "4c0716e46f0dcf2ccc72a4fac612a9f157024530",
+    "https://wentingwang.co.uk/assets/icons/icon-192x192.png": "d61cbff2c0e0ed452edd7aac97060521a8fc8be7",
+    "https://wentingwang.co.uk/assets/icons/icon-384x384.png": "34d461540aa273b1cd67c14c629d5134d722ce1f",
+    "https://wentingwang.co.uk/assets/icons/icon-512x512.png": "7def413b80573f2eb492bd85e6ab86170fd6f791",
+    "https://wentingwang.co.uk/assets/icons/icon-72x72.png": "efcbb2a62e664982f341cc7750e2a4250591ed60",
+    "https://wentingwang.co.uk/assets/icons/icon-96x96.png": "7d84da826b06943c2a35169d1864bc7eec6c6243",
+    "https://wentingwang.co.uk/assets/stylesheets/timeline.css": "e68dd5e3c7edfb6c5fd1ba0559910c65ed65faa3",
+    "https://wentingwang.co.uk/index.html": "4bfc0d2cb52be5b08ee67c9822dd2d5d5b646ca0"
   },
   "navigationUrls": [
     {
