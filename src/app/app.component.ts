@@ -12,20 +12,32 @@ export class AppComponent {
 
   ngOnInit() {
     $(document).ready(function() {
+      if (!navigator.onLine) {
+        showOffline();
+      }
+
       window.addEventListener('offline', function(e) {
+        showOffline();
+      }, false);
+
+      window.addEventListener('online', function(e) {
+        showOnline();
+      }, false);
+
+      function showOffline() {
         $("#snackbar").removeClass("show");
         $("#snackbar").css("background-color", "var(--danger)");
         $("#snackbar").html("You're offline, but it's okay! ;)");
         $("#snackbar").addClass("perm-show");
-      }, false);
+      }
 
-      window.addEventListener('online', function(e) {
+      function showOnline() {
         $("#snackbar").removeClass("perm-show");
         $("#snackbar").css("background-color", "var(--success)");
         $("#snackbar").html("You're back online!");
         $("#snackbar").addClass("show");
         setTimeout(function(){ $("#snackbar").removeClass("show"); }, 3000);
-      }, false);
+      }
     });
   }
 
