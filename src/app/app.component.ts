@@ -15,7 +15,7 @@ export class AppComponent {
       window.addEventListener('offline', function(e) {
         $("#snackbar").removeClass("show");
         $("#snackbar").css("background-color", "var(--danger)");
-        $("#snackbar").html("You're offline!");
+        $("#snackbar").html("You're offline, but it's okay! ;)");
         $("#snackbar").addClass("perm-show");
       }, false);
 
