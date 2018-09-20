@@ -1,6 +1,6 @@
 # Personal Website for Wen Ting Wang
 
-To view current deployment, visit https://chubberlisk.github.io.
+To view current deployment, visit https://wentingwang.co.uk.
 
 ## Branches
 
