@@ -17,11 +17,9 @@
       "updateMode": "prefetch",
       "urls": [
         "/assets/cv_wen_ting_wang.pdf",
-        "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
-        "/assets/icons/icon-152x152.png",
         "/assets/icons/icon-192x192.png",
-        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-48x48.png",
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
@@ -38,16 +36,14 @@
   "dataGroups": [],
   "hashTable": {
     "/assets/cv_wen_ting_wang.pdf": "b7c70afb7d0d568fe9e04d80171e9ba243ca621e",
-    "/assets/icons/icon-128x128.png": "f05b5bcb63e30cfd50c899cd3f3ea96299f4a12d",
-    "/assets/icons/icon-144x144.png": "326d2a36fcdd9f4d9d32dd1e885b79cac150c76b",
-    "/assets/icons/icon-152x152.png": "4c0716e46f0dcf2ccc72a4fac612a9f157024530",
-    "/assets/icons/icon-192x192.png": "d61cbff2c0e0ed452edd7aac97060521a8fc8be7",
-    "/assets/icons/icon-384x384.png": "34d461540aa273b1cd67c14c629d5134d722ce1f",
+    "/assets/icons/icon-144x144.png": "56d46b4c0f0d5a57f5c5e7bc1aa0c8ffc6a077b5",
+    "/assets/icons/icon-192x192.png": "1ef6376b63db7dab930101b544462dba14419310",
+    "/assets/icons/icon-48x48.png": "4712b01bb9cc313b41c08192998e4f5b5a2332c6",
     "/assets/icons/icon-512x512.png": "7def413b80573f2eb492bd85e6ab86170fd6f791",
-    "/assets/icons/icon-72x72.png": "efcbb2a62e664982f341cc7750e2a4250591ed60",
-    "/assets/icons/icon-96x96.png": "7d84da826b06943c2a35169d1864bc7eec6c6243",
+    "/assets/icons/icon-72x72.png": "e52973947955c0410b440ec5e5fa282bdbcb814b",
+    "/assets/icons/icon-96x96.png": "94b744af6e83a6fdfd512d70e88ad9c942b3e570",
     "/assets/stylesheets/timeline.css": "e68dd5e3c7edfb6c5fd1ba0559910c65ed65faa3",
-    "/index.html": "38c94a2129d579dd9655aeb624b529c7c889f51a"
+    "/index.html": "e82bc5e368deef860a7a19618600c045b7ca5986"
   },
   "navigationUrls": [
     {
