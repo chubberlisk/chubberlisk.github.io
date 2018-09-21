@@ -1,23 +1,30 @@
-<p>
-  <button
-    color="primary"
-    (click)="refresh()"
-    mat-button
-    mat-raised-button>
-    Gimme more!
-  </button>
-</p>
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <p style="text-align: center">
+          <button type="button" class="btn btn-success" (click)="refresh()">Refresh!</button>
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="container">
+          <h3>Here's a cat image!</h3>
+          <img class="img-responsive img-thumbnail"
+          src="https://cataas.com/cat/says/Cat%20Tings"
+          alt="Cute cat">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="container">
+          <h3>Here's a cat gif!</h3>
+          <img class="img-responsive img-thumbnail"
+          src="https://api.thecatapi.com/v1/images/search?format=src&mime_types=image/gif"
+          alt="Cute cat">
+        </div>
+      </div>
+    </div>
+  </div>
 
-<h1>Here's a cat image!</h1>
-<p>
-  <img
-    src="https://cataas.com/cat/says/Fiona%20is%20the%20best"
-    alt="Cute cat" style="max-width: 40vh;">
-</p>
-
-<h1>Here's a cat gif!</h1>
-<p>
-  <img
-    src="https://api.thecatapi.com/v1/images/search?format=src&mime_types=image/gif"
-    alt="Cute cat" style="max-width: 40vh;">
-</p>
+</section>
