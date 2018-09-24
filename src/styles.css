@@ -17,7 +17,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 2.5vh;
+  padding: 2.5vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -26,15 +26,17 @@ h1, h2, h3, h4, h5, h6 {
 
 mark {
   padding: 0 0.2em;
+  background-color: white;
+  color: var(--dark);
 }
 
 a {
-  color: white;
+  color: var(--dark);
 }
 
 a:hover {
   text-decoration: none;
-  color: white;
+  color: var(--dark);
 }
 
 .hvr-pulse {

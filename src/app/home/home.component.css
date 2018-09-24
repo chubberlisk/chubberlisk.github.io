@@ -1,7 +1,32 @@
+section#landing h1 {
+  text-align: center;
+}
+
+section#landing {
+  background-color: var(--w-yellow);
+}
+
+section#a-bit-about-me {
+  background-color: var(--primary);
+  color: white;
+}
+
+section#education{
+  background-color: var(--success);
+  color: white;
+}
+
+section#experience{
+  background-color: var(--danger);
+  color: white;
+}
+
 .click-me {
+  padding-top: 1vh;
   height: 15vh;
   text-align: center;
   font-family: 'Amatic SC', cursive;
+  color: white;
 }
 
 .click-me a i {
@@ -9,8 +34,8 @@
   margin-bottom: 0.75vh;
 }
 
-section#landing h1 {
-  text-align: center;
+.click-me a {
+  color: white;
 }
 
 /* Extra small devices */

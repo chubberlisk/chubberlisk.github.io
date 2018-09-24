@@ -6,17 +6,16 @@
     <h1><mark class="hvr-buzz"><b>Ting</b></mark>.</h1>
   </div>
 </section>
-<div class="container-fluid click-me">
+<div class="container-fluid click-me" style="background-color: var(--w-yellow)">
   <a class="hvr-wobble-bottom" href="#a-bit-about-me" (click)="setTitle('A Bit About Me')">
     <b><i class="fa fa-angle-down"></i>Let's go down</b>
-    <br /><small>downtown...</small>
   </a>
 </div>
 
 <section id="a-bit-about-me">
   <app-a-bit-about-me></app-a-bit-about-me>
 </section>
-<div class="container-fluid click-me">
+<div class="container-fluid click-me" style="background-color: var(--primary);">
   <a class="hvr-wobble-bottom" href="#education" (click)="setTitle('Education')">
     <b><i class="fa fa-angle-down"></i>Let's go down</b>
   </a>
@@ -25,18 +24,16 @@
 <section id="education">
   <app-education></app-education>
 </section>
-<div class="container-fluid click-me">
+<div class="container-fluid click-me" style="background-color: var(--success);">
   <a class="hvr-wobble-bottom" href="#experience" (click)="setTitle('Experience')">
     <b><i class="fa fa-angle-down"></i>Let's go down</b>
   </a>
 </div>
 
 <section id="experience">
-  <div class="container">
-    <app-experience></app-experience>
-  </div>
+  <app-experience></app-experience>
 </section>
-<div class="container-fluid click-me">
+<div class="container-fluid click-me" style="background-color: var(--danger);">
   <a class="hvr-wobble-top" href="#landing" (click)="setTitle('')">
     <b><i class="fab fa-fly"></i>Fly me to the top please!</b>
     <br /><small>P.S there's a footer...</small>

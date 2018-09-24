@@ -1,15 +1,16 @@
 .circle {
-  background-color: var(--primary);
+  background-color: var(--white);
+  color: var(--dark);
 }
 
 .how-it-works.row .col-2::after {
-  border-left: 3px solid var(--primary);
+  border-left: 3px solid var(--white);
 }
 
 .timeline hr {
-  border-top: 3px solid var(--primary);
+  border-top: 3px solid var(--white);
 }
 
 .timeline .corner {
-  border: 3px solid var(--primary);
+  border: 3px solid var(--white);
 }
