@@ -3,9 +3,7 @@
 }
 
 main {
-  /* padding: 0 2.5vh; */
   min-height: 100vh;
-  /* background-color: var(--w-yellow); */
 }
 
 #snackbar {
