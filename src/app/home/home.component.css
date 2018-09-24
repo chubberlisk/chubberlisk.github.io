@@ -1,41 +1,41 @@
-#landing h1 {
-  text-align: center;
+.landing, .a-bit-about-me, .education, .experience, .contact-me {
+  color: white;
 }
 
-#landing {
+.landing h1 {
+  text-align: center;
+  color: black;
+}
+
+.landing {
   background-color: var(--w-yellow);
 }
 
-#a-bit-about-me {
+.a-bit-about-me {
   background-color: #004385;
-  color: white;
 }
 
-#education {
+.education {
   background-color: var(--success);
-  color: white;
 }
 
-#experience {
+.experience {
   background-color: #D64933;
-  color: white;
 }
 
-#contact-me {
+.contact-me {
   background-color: var(--info);
-  color: white;
 }
 
-#contact-me section {
+section.contact-me {
   min-height: 0;
 }
 
 .click-me {
-  padding-top: 1vh;
-  height: 15vh;
   text-align: center;
   font-family: 'Amatic SC', cursive;
   color: white;
+  padding-bottom: 2.5vh;
 }
 
 .click-me a i {
@@ -47,10 +47,15 @@
   color: white;
 }
 
+.click-me a small {
+  font-weight: bold;
+}
+
 /* Extra small devices */
 @media only screen and (max-width: 320px) {
   .click-me {
     font-size: 1.15em;
+    min-height: 10vh;
   }
 }
 
@@ -58,6 +63,7 @@
 @media only screen and (min-width: 321px) {
   .click-me {
     font-size: 1.25em;
+    min-height: 15vh;
   }
 }
 
@@ -65,5 +71,6 @@
 @media only screen and (min-width: 768px) {
   .click-me {
     font-size: 1.75em;
+    min-height: 20vh;
   }
 }

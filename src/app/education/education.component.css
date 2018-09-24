@@ -1,3 +1,12 @@
+p {
+  margin: 0;
+}
+
+mark {
+  margin-right: 0.5vw;
+  color: black;
+}
+
 .circle {
   background-color: var(--white);
   color: var(--dark);

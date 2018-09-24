@@ -4,18 +4,22 @@ footer {
   color: white;
 }
 
-i {
-  color: white;
+p {
+  margin-bottom: 1vh;
 }
 
-#links {
-  margin-bottom: 2.5vh;
+i {
+  color: white;
 }
 
 a {
   text-decoration: none;
   color: white;
   font-family: 'Amatic SC', cursive;
+}
+
+#links {
+  margin-bottom: 2.5vh;
 }
 
 /* Extra small devices */

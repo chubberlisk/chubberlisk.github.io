@@ -1,7 +1,11 @@
 .card {
   text-align: center;
-  color: var(--dark);
+  color: black;
   border-radius: 0;
+}
+
+.card-body {
+  padding: 1rem;
 }
 
 .card i {
