@@ -12,6 +12,7 @@ import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { FooterComponent } from './footer/footer.component';
 import { ABitAboutMeComponent } from './a-bit-about-me/a-bit-about-me.component';
+import { ContactMeComponent } from './contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ABitAboutMeComponent } from './a-bit-about-me/a-bit-about-me.component'
     EducationComponent,
     ExperienceComponent,
     FooterComponent,
-    ABitAboutMeComponent
+    ABitAboutMeComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,

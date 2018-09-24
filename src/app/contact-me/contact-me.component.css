@@ -1,15 +1,5 @@
-footer {
-  padding: 2.5vh;
-  background-color: var(--dark);
-  color: white;
-}
-
 i {
-  color: white;
-}
-
-#links {
-  margin-bottom: 2.5vh;
+  padding-right: 1vw;
 }
 
 a {

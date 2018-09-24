@@ -1,41 +1,55 @@
-<section id="landing">
-  <div class="container">
-    <h1>Hi there!</h1>
-    <h1>My name is <b>Wen Ting Wang</b>.</h1>
-    <h1>But you can just call me</h1>
-    <h1><mark class="hvr-buzz"><b>Ting</b></mark>.</h1>
+<div id="landing">
+  <section>
+    <div class="container">
+      <h1>Hi there!</h1>
+      <h1>My name is <b>Wen Ting Wang</b>.</h1>
+      <h1>But you can just call me</h1>
+      <h1><mark class="hvr-buzz"><b>Ting</b></mark>.</h1>
+    </div>
+  </section>
+  <div class="container-fluid click-me">
+    <a class="hvr-wobble-bottom" href="#a-bit-about-me" (click)="setTitle('A Bit About Me')">
+      <b><i class="fa fa-angle-down"></i>Let's go down</b>
+    </a>
   </div>
-</section>
-<div class="container-fluid click-me" style="background-color: var(--w-yellow)">
-  <a class="hvr-wobble-bottom" href="#a-bit-about-me" (click)="setTitle('A Bit About Me')">
-    <b><i class="fa fa-angle-down"></i>Let's go down</b>
-  </a>
 </div>
 
-<section id="a-bit-about-me">
-  <app-a-bit-about-me></app-a-bit-about-me>
-</section>
-<div class="container-fluid click-me" style="background-color: var(--primary);">
-  <a class="hvr-wobble-bottom" href="#education" (click)="setTitle('Education')">
-    <b><i class="fa fa-angle-down"></i>Let's go down</b>
-  </a>
+<div id="a-bit-about-me">
+  <section>
+    <app-a-bit-about-me></app-a-bit-about-me>
+  </section>
+  <div class="container-fluid click-me">
+    <a class="hvr-wobble-bottom" href="#education" (click)="setTitle('Education')">
+      <b><i class="fa fa-angle-down"></i>Let's go down</b>
+    </a>
+  </div>
 </div>
 
-<section id="education">
-  <app-education></app-education>
-</section>
-<div class="container-fluid click-me" style="background-color: var(--success);">
-  <a class="hvr-wobble-bottom" href="#experience" (click)="setTitle('Experience')">
-    <b><i class="fa fa-angle-down"></i>Let's go down</b>
-  </a>
+<div id="education">
+  <section>
+    <app-education></app-education>
+  </section>
+  <div class="container-fluid click-me" style="background-color: var(--success);">
+    <a class="hvr-wobble-bottom" href="#experience" (click)="setTitle('Experience')">
+      <b><i class="fa fa-angle-down"></i>Let's go down</b>
+    </a>
+  </div>
 </div>
 
-<section id="experience">
-  <app-experience></app-experience>
-</section>
-<div class="container-fluid click-me" style="background-color: var(--danger);">
-  <a class="hvr-wobble-top" href="#landing" (click)="setTitle('')">
-    <b><i class="fab fa-fly"></i>Fly me to the top please!</b>
-    <br /><small>P.S there's a footer...</small>
-  </a>
+<div id="experience">
+  <section>
+    <app-experience></app-experience>
+  </section>
+  <div class="container-fluid click-me">
+    <a class="hvr-wobble-top" href="#landing" (click)="setTitle('')">
+      <b><i class="fab fa-fly"></i>Fly me to the top please!</b>
+      <br /><small>P.S there's a bit more...</small>
+    </a>
+  </div>
+</div>
+
+<div id="contact-me">
+  <section>
+    <app-contact-me></app-contact-me>
+  </section>
 </div>

@@ -1,24 +1,33 @@
-section#landing h1 {
+#landing h1 {
   text-align: center;
 }
 
-section#landing {
+#landing {
   background-color: var(--w-yellow);
 }
 
-section#a-bit-about-me {
-  background-color: var(--primary);
+#a-bit-about-me {
+  background-color: #004385;
   color: white;
 }
 
-section#education{
+#education {
   background-color: var(--success);
   color: white;
 }
 
-section#experience{
-  background-color: var(--danger);
+#experience {
+  background-color: #D64933;
   color: white;
+}
+
+#contact-me {
+  background-color: var(--info);
+  color: white;
+}
+
+#contact-me section {
+  min-height: 0;
 }
 
 .click-me {
