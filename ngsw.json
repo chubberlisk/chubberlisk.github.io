@@ -23,6 +23,8 @@
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
+        "/assets/images/cover_screen.jpeg",
+        "/assets/images/information_screen.jpeg",
         "/assets/stylesheets/timeline.css"
       ],
       "patterns": [
@@ -42,8 +44,10 @@
     "/assets/icons/icon-512x512.png": "7def413b80573f2eb492bd85e6ab86170fd6f791",
     "/assets/icons/icon-72x72.png": "e52973947955c0410b440ec5e5fa282bdbcb814b",
     "/assets/icons/icon-96x96.png": "94b744af6e83a6fdfd512d70e88ad9c942b3e570",
+    "/assets/images/cover_screen.jpeg": "1c32492b4a6aeafadc6268e46fa17cd25ab4eba6",
+    "/assets/images/information_screen.jpeg": "bf3ea65f2a0bd0a449956bc77103aabda9c22a13",
     "/assets/stylesheets/timeline.css": "e68dd5e3c7edfb6c5fd1ba0559910c65ed65faa3",
-    "/index.html": "e850cd0c0acca8a1dfe817b4160991d1e2c74f57"
+    "/index.html": "d51ae09563c3a748057bd20b8508e813d90889cd"
   },
   "navigationUrls": [
     {
