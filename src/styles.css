@@ -67,7 +67,7 @@ a:hover {
     font-size: 1.25em;
   }
 
-  p, .alert, #snackbar {
+  p, .alert, #snackbar, .btn {
     font-size: 0.75em;
   }
 }
@@ -94,7 +94,7 @@ a:hover {
     font-size: 1.25em;
   }
 
-  p, .alert, #snackbar {
+  p, .alert, #snackbar, .btn {
     font-size: 0.8em;
   }
 }
@@ -121,7 +121,7 @@ a:hover {
     font-size: 1.5em;
   }
 
-  p, .alert, #snackbar {
+  p, .alert, #snackbar, .btn {
     font-size: 1em;
   }
 }
