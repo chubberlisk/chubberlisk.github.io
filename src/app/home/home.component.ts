@@ -22,6 +22,8 @@ export class HomeComponent implements OnInit {
     if ($("#change-theme-btn").hasClass("theme-multiple")) {
       $(".landing, .a-bit-about-me, .education, .experience").css({"background-color": "var(--w-yellow)", "color": "black"});
       $(".contact-me").css("background-color", "var(--info)");
+      $("a").css("color", "var(--primary)");
+      $(".click-me a, #links a, #contact-me a").css("color", "white");
       $("#change-theme-btn").removeClass("theme-multiple");
       $("#change-theme-btn").addClass("theme-single");
     } else {
@@ -30,6 +32,8 @@ export class HomeComponent implements OnInit {
       $(".experience").css("background-color", "#D64933");
       $(".contact-me").css("background-color", "var(--info)");
       $(".landing, .a-bit-about-me, .education, .experience, .contact-me").css("color", "var(--white)");
+      $("a").css("color", "black");
+      $(".click-me a, #links a, #contact-me a").css("color", "white");
       $("#change-theme-btn").removeClass("theme-single");
       $("#change-theme-btn").addClass("theme-multiple");
     }
