@@ -26,6 +26,7 @@ export class HomeComponent implements OnInit {
       $(".click-me a, #links a, #contact-me a").css("color", "white");
       $("#change-theme-btn").removeClass("theme-multiple");
       $("#change-theme-btn").addClass("theme-single");
+      $("#change-theme-btn").html("Multi-Colour Theme <i class='fas fa-palette'></i>");
     } else {
       $(".a-bit-about-me").css("background-color", "#004385");
       $(".education").css("background-color", "var(--success)");
@@ -36,6 +37,7 @@ export class HomeComponent implements OnInit {
       $(".click-me a, #links a, #contact-me a").css("color", "white");
       $("#change-theme-btn").removeClass("theme-single");
       $("#change-theme-btn").addClass("theme-multiple");
+      $("#change-theme-btn").html("Yellow Theme <i class='fas fa-palette'></i>");
     }
     $("#snackbar").css("background-color", "var(--success)");
     $("#snackbar").html("Theme changed!");
