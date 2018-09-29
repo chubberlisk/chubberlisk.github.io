@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { SwUpdate } from '@angular/service-worker';
 import * as $ from 'jquery';
 import { Title } from '@angular/platform-browser';
 
@@ -8,9 +9,9 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public constructor(private titleService: Title) { }
+  public constructor(private titleService: Title, private swUpdate: SwUpdate) { }
 
-  ngOnInit(private swUpdate: SwUpdate) {
+  ngOnInit() {
     if (this.swUpdate.isEnabled) {
       this.swUpdate.available.subscribe(() => {
         if(confirm("New version is available. Load New Version?")) {
