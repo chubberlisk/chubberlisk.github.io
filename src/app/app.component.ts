@@ -10,7 +10,14 @@ import { Title } from '@angular/platform-browser';
 export class AppComponent {
   public constructor(private titleService: Title) { }
 
-  ngOnInit() {
+  ngOnInit(private swUpdate: SwUpdate) {
+    if (this.swUpdate.isEnabled) {
+      this.swUpdate.available.subscribe(() => {
+        if(confirm("New version is available. Load New Version?")) {
+          window.location.reload();
+        }
+      });
+    }
     $(document).ready(function() {
       if (!navigator.onLine) {
         showOffline();
