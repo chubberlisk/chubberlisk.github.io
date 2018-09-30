@@ -16,15 +16,17 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "/assets/cv_wen_ting_wang.pdf",
+        "/assets/cv-wen-ting-wang.pdf",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-192x192.png",
         "/assets/icons/icon-48x48.png",
         "/assets/icons/icon-512x512.png",
         "/assets/icons/icon-72x72.png",
         "/assets/icons/icon-96x96.png",
-        "/assets/images/cover_screen.jpeg",
-        "/assets/images/information_screen.jpeg",
+        "/assets/images/e-zine/cover-screen.jpeg",
+        "/assets/images/e-zine/information-screen.jpeg",
+        "/assets/images/tms/home.png",
+        "/assets/images/tms/view-lessons.png",
         "/assets/stylesheets/timeline.css"
       ],
       "patterns": [
@@ -37,17 +39,19 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/assets/cv_wen_ting_wang.pdf": "8190593cfa7e274a3f9f3bfaaedcad4c06abdd30",
+    "/assets/cv-wen-ting-wang.pdf": "b0ef8d673d7cc14dae65ad47d2349cbc56b5fee5",
     "/assets/icons/icon-144x144.png": "56d46b4c0f0d5a57f5c5e7bc1aa0c8ffc6a077b5",
     "/assets/icons/icon-192x192.png": "1ef6376b63db7dab930101b544462dba14419310",
     "/assets/icons/icon-48x48.png": "4712b01bb9cc313b41c08192998e4f5b5a2332c6",
     "/assets/icons/icon-512x512.png": "7def413b80573f2eb492bd85e6ab86170fd6f791",
     "/assets/icons/icon-72x72.png": "e52973947955c0410b440ec5e5fa282bdbcb814b",
     "/assets/icons/icon-96x96.png": "94b744af6e83a6fdfd512d70e88ad9c942b3e570",
-    "/assets/images/cover_screen.jpeg": "1c32492b4a6aeafadc6268e46fa17cd25ab4eba6",
-    "/assets/images/information_screen.jpeg": "bf3ea65f2a0bd0a449956bc77103aabda9c22a13",
+    "/assets/images/e-zine/cover-screen.jpeg": "1c32492b4a6aeafadc6268e46fa17cd25ab4eba6",
+    "/assets/images/e-zine/information-screen.jpeg": "bf3ea65f2a0bd0a449956bc77103aabda9c22a13",
+    "/assets/images/tms/home.png": "51eee317b8d22145277bc2457b110643afe365db",
+    "/assets/images/tms/view-lessons.png": "8fe0804761ff30e520b3d547bee1d2ddad8bffd0",
     "/assets/stylesheets/timeline.css": "e68dd5e3c7edfb6c5fd1ba0559910c65ed65faa3",
-    "/index.html": "c80d6e53fec55324e22c823405aa05abe201fadd"
+    "/index.html": "036e7b75b82834e05865b54fb799bcc178810d54"
   },
   "navigationUrls": [
     {
