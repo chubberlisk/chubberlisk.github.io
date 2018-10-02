@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { AppComponent } from '../app.component'
+import { TitleService } from '../title.service'
 
 @Component({
   selector: 'app-footer',
@@ -9,12 +9,12 @@ import { AppComponent } from '../app.component'
 })
 export class FooterComponent implements OnInit {
 
-  constructor(private app: AppComponent) { }
+  constructor(private titleService: TitleService) { }
 
   ngOnInit() {
   }
 
   setTitle(newTitle: string): void {
-    this.app.setTitle(newTitle);
+    this.titleService.setTitle(newTitle);
   }
 }

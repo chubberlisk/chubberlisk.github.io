@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import * as $ from 'jquery';
 
-import { AppComponent } from '../app.component'
+import { TitleService } from '../title.service'
 
 @Component({
   selector: 'app-home',
@@ -9,13 +9,14 @@ import { AppComponent } from '../app.component'
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  constructor(private app: AppComponent) { }
+
+  constructor(private titleService: TitleService) { }
 
   ngOnInit() {
   }
 
   setTitle(newTitle: string): void {
-    this.app.setTitle(newTitle);
+    this.titleService.setTitle(newTitle);
   }
 
   changeTheme(): void {

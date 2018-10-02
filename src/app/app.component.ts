@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { SwUpdate } from '@angular/service-worker';
 import * as $ from 'jquery';
-import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +8,8 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public constructor(private titleService: Title, private swUpdate: SwUpdate) { }
+
+  constructor(private swUpdate: SwUpdate) { }
 
   ngOnInit() {
     if (this.swUpdate.isEnabled) {
@@ -47,13 +47,5 @@ export class AppComponent {
         setTimeout(function(){ $("#snackbar").removeClass("show"); }, 3000);
       }
     });
-  }
-
-  public setTitle(newTitle: string) {
-    if (newTitle != '') {
-      this.titleService.setTitle(newTitle + " | Wen Ting Wang");
-    } else {
-      this.titleService.setTitle("Wen Ting Wang");
-    }
   }
 }
