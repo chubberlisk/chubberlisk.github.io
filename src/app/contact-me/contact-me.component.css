@@ -13,6 +13,10 @@ a {
   a {
     font-size: 1.25em;
   }
+
+  img {
+    content:url("/assets/icons/icon-48x48.png");
+  }
 }
 
 /* Small devices */
@@ -20,11 +24,19 @@ a {
   a {
     font-size: 1.50em;
   }
+
+  img {
+    content:url("/assets/icons/icon-48x48.png");
+  }
 }
 
 /* Medium devices */
 @media only screen and (min-width: 768px) {
   a {
     font-size: 1.75em;
+  }
+
+  img {
+    content:url("/assets/icons/icon-72x72.png");
   }
 }
