@@ -5,7 +5,7 @@
   z-index: 3;
 }
 
-.landing, .a-bit-about-me, .education, .experience, .contact-me {
+.landing, .a-bit-about-me, .education, .experience, .portfolio, .contact-me {
   color: white;
 }
 
@@ -28,6 +28,10 @@
 
 .experience {
   background-color: #D64933;
+}
+
+.portfolio {
+  background-color: var(--purple);
 }
 
 .contact-me {

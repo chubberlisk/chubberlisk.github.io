@@ -13,6 +13,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { FooterComponent } from './footer/footer.component';
 import { ABitAboutMeComponent } from './a-bit-about-me/a-bit-about-me.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
     ExperienceComponent,
     FooterComponent,
     ABitAboutMeComponent,
-    ContactMeComponent
+    ContactMeComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,

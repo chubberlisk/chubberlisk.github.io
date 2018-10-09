@@ -1,0 +1,9 @@
+.card {
+  max-width: 22rem;
+  color: black;
+}
+
+.card-footer a i, .card-footer i {
+  font-size: 1.5em;
+  color: var(--secondary);
+}
