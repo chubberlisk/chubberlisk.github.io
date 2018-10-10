@@ -35,6 +35,15 @@
   <app-experience></app-experience>
 </section>
 <div class="container-fluid experience click-me">
+  <a class="hvr-wobble-top" href="#portfolio" (click)="setTitle('')">
+    <b><i class="fa fa-angle-down"></i>Let's go down</b>
+  </a>
+</div>
+
+<section class="portfolio" id="portfolio">
+  <app-portfolio></app-portfolio>
+</section>
+<div class="container-fluid portfolio click-me">
   <a class="hvr-wobble-top" href="#landing" (click)="setTitle('')">
     <b><i class="fab fa-fly"></i>Fly me to the top please!</b>
     <br /><small>P.S there's a bit more...</small>

@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
   changeTheme(): void {
     if ($("#change-theme-btn").hasClass("theme-multiple")) {
       // Yellow theme
-      $(".landing, .a-bit-about-me, .education, .experience").css({"background-color": "var(--w-yellow)", "color": "black"});
+      $(".landing, .a-bit-about-me, .education, .experience, .portfolio").css({"background-color": "var(--w-yellow)", "color": "black"});
       $("a").css("color", "var(--primary)");
       $(".click-me a, #links a, #contact-me a").css("color", "white");
       $("#change-theme-btn").removeClass("theme-multiple");
@@ -30,7 +30,7 @@ export class HomeComponent implements OnInit {
       $("#change-theme-btn").html("Blue Theme <i class='fas fa-palette'></i>");
     } else if ($("#change-theme-btn").hasClass("theme-yellow")) {
       // Blue theme
-      $(".landing, .a-bit-about-me, .education, .experience").css({"background-color": "#004385", "color": "white"});
+      $(".landing, .a-bit-about-me, .education, .experience, .portfolio").css({"background-color": "#004385", "color": "white"});
       $("a").css("color", "var(--w-yellow)");
       $(".landing h1, .click-me a, #links a, #contact-me a").css("color", "white");
       $("#change-theme-btn").removeClass("theme-yellow");
@@ -41,6 +41,7 @@ export class HomeComponent implements OnInit {
       $(".landing").css("background-color", "var(--w-yellow)");
       $(".a-bit-about-me").css("background-color", "#004385");
       $(".education").css("background-color", "var(--success)");
+      $(".portfolio").css("background-color", "var(--purple)");
       $(".experience").css("background-color", "#D64933");
       $(".landing, .a-bit-about-me, .education, .experience, .contact-me").css("color", "var(--white)");
       $(".landing h1, a").css("color", "black");
