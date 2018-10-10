@@ -25,6 +25,8 @@
         "/assets/icons/icon-96x96.png",
         "/assets/images/e-zine/cover-screen.jpeg",
         "/assets/images/e-zine/information-screen.jpeg",
+        "/assets/images/portfolio/coming-soon.jpg",
+        "/assets/images/portfolio/personal-website.png",
         "/assets/images/tms/home.png",
         "/assets/images/tms/view-lessons.png",
         "/assets/stylesheets/timeline.css"
@@ -48,10 +50,12 @@
     "/assets/icons/icon-96x96.png": "f1e2700b79b192f9ba4ed59dee786cf6e99f2b4e",
     "/assets/images/e-zine/cover-screen.jpeg": "1c32492b4a6aeafadc6268e46fa17cd25ab4eba6",
     "/assets/images/e-zine/information-screen.jpeg": "bf3ea65f2a0bd0a449956bc77103aabda9c22a13",
+    "/assets/images/portfolio/coming-soon.jpg": "3eda049f31e9614992ba11483ccfe7def156d550",
+    "/assets/images/portfolio/personal-website.png": "06374c12d6722c55ecd4321f289677f91c0326d3",
     "/assets/images/tms/home.png": "51eee317b8d22145277bc2457b110643afe365db",
     "/assets/images/tms/view-lessons.png": "8fe0804761ff30e520b3d547bee1d2ddad8bffd0",
     "/assets/stylesheets/timeline.css": "e68dd5e3c7edfb6c5fd1ba0559910c65ed65faa3",
-    "/index.html": "7b38f71ec0166909662df29a125690ecf5d77179"
+    "/index.html": "d6f5e9e2c6e83420e558e45fb12c92df8336945c"
   },
   "navigationUrls": [
     {
