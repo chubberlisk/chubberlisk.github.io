@@ -1,11 +1,19 @@
-i {
-  padding-right: 1vw;
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
 }
 
 a {
   text-decoration: none;
   color: white;
   font-family: 'Amatic SC', cursive;
+}
+
+i {
+  padding-right: 1vw;
 }
 
 /* Extra small devices */
