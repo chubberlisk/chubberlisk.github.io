@@ -1,5 +1,9 @@
 # Personal Website for Wen Ting Wang
 
+A personal website for this Ting, acts as an informal CV and portfolio.
+
+To track progress, view the [GitHub Project](https://github.com/chubberlisk/chubberlisk.github.io/projects/2).
+
 To view current deployment, visit https://wentingwang.co.uk.
 
 ## Branches
