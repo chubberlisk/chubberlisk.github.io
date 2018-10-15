@@ -2,9 +2,8 @@
 
 A personal website for this Ting, acts as an informal CV and portfolio.
 
-To track progress, view the [GitHub Project](https://github.com/chubberlisk/chubberlisk.github.io/projects/2).
-
-To view current deployment, visit https://wentingwang.co.uk.
+- To track **progress**, view the [GitHub Project](https://github.com/chubberlisk/chubberlisk.github.io/projects/2).
+- To view current **deployment**, visit https://wentingwang.co.uk.
 
 ## Branches
 
@@ -22,3 +21,7 @@ To view current deployment, visit https://wentingwang.co.uk.
 - A feature branch is created from the `release` branch.
 - Once the feature is completed, a pull request must be made to add to the
   `release` branch.
+
+## Releases
+- [Semantic Versioning](https://semver.org/) will be followed.
+- Each **major** release will have a codename which will begin with A until Z and be named after a Yu-Gi-Oh! card owned by _Seto Kaiba_.
