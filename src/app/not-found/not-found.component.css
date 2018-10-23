@@ -6,3 +6,11 @@ section {
 h1 {
   color: var(--danger);
 }
+
+h2 {
+  color: black;
+}
+
+a {
+  color: var(--primary);
+}
