@@ -8,6 +8,6 @@
   color: var(--secondary);
 }
 
-.card-footer a i {
+.card-footer a {
   margin-right: 1vw;
 }
