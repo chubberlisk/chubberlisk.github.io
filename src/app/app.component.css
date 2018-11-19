@@ -1,7 +1,3 @@
-::ng-deep :root {
-  --w-yellow: #EAC435;
-}
-
 main {
   min-height: 100vh;
 }

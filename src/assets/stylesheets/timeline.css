@@ -1,87 +1,139 @@
-/* BS$ timeline by mylastof - https://bootsnipp.com/snippets/O5q8E */
+/* By Brady Wright https://codepen.io/brady_wright/pen/NNOvrW?editors=1100 */
 
-h3 {
-  color: white;
-}
-
-.circle {
-  padding: 13px 16px;
-  border-radius: 50%;
-  background-color: var(--info);
-  color: white;
-  max-height: 50px;
-  z-index: 2;
-  font-family: 'Amatic SC', cursive;
-}
-
-.how-it-works.row .col-2 {
-  align-self: stretch;
-}
-
-.how-it-works.row .col-2::after {
-  content: "";
-  position: absolute;
-  border-left: 3px solid var(--info);
-  z-index: 1;
-}
-
-.how-it-works.row .col-2.bottom::after {
-  height: 50%;
-  left: 50%;
-  top: 50%;
-}
-
-.how-it-works.row .col-2.full::after {
-  height: 100%;
-  left: calc(50% - 3px);
-}
-
-.how-it-works.row .col-2.top::after {
-  height: 50%;
-  left: 50%;
-  top: 0;
-}
-
-.timeline div {
-  padding: 0;
-  height: 40px;
-}
-
-.timeline hr {
-  border-top: 3px solid var(--info);
+.timeline {
+  line-height: 1.4em;
+  list-style: none;
   margin: 0;
-  top: 17px;
-  position: relative;
-}
-
-.timeline .col-2 {
-  display: flex;
-  overflow: hidden;
-}
-
-.timeline .corner {
-  border: 3px solid var(--info);
+  padding: 0;
   width: 100%;
+}
+.timeline h1, .timeline h2, .timeline h3, .timeline h4, .timeline h5, .timeline h6 {
+  line-height: inherit;
+}
+
+.timeline-item {
+  padding-left: 40px;
   position: relative;
-  border-radius: 15px;
 }
 
-.timeline .top-right {
-  left: 50%;
-  top: -50%;
+.timeline-item:last-child {
+  padding-bottom: 0;
 }
 
-.timeline .left-bottom {
-  left: -50%;
-  top: calc(50% - 3px);
+.timeline-info {
+  margin: 0 0 0.5em 0;
+  white-space: nowrap;
 }
 
-.timeline .top-left {
-  left: -50%;
-  top: -50%;
+.timeline-marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15px;
 }
 
-.timeline .right-bottom {
-  left: 50%;
-  top: calc(50% - 3px);
+.timeline-marker:before {
+  background: white;
+  border: 3px solid transparent;
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 15px;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 15px;
+  transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+.timeline-marker:after {
+  content: "";
+  width: 3px;
+  background: #ccd5db;
+  display: block;
+  position: absolute;
+  top: 24px;
+  bottom: 0;
+  left: 6px;
+}
+
+.timeline-item:last-child .timeline-marker:after {
+  content: none;
+}
+
+.timeline-item:not(.period):hover .timeline-marker:before {
+  background: transparent;
+  border: 3px solid white;
+}
+
+.timeline-content {
+  padding-bottom: 40px;
+}
+.timeline-content p:last-child {
+  margin-bottom: 0;
+}
+
+.period {
+  padding: 0;
+}
+
+.period .timeline-info {
+  display: none;
+}
+
+.period .timeline-marker:before {
+  background: transparent;
+  content: "";
+  width: 15px;
+  height: auto;
+  border: none;
+  border-radius: 0;
+  top: 0;
+  bottom: 30px;
+  position: absolute;
+  border-top: 3px solid #ccd5db;
+  border-bottom: 3px solid #ccd5db;
+}
+
+.period .timeline-marker:after {
+  content: "";
+  height: 32px;
+  top: auto;
+}
+
+.period .timeline-content {
+  padding: 40px 0 70px;
+}
+
+.period .timeline-title {
+  margin: 0;
+}
+
+.marker-outline .timeline-marker:before {
+  background: transparent;
+  border-color: white;
+}
+.marker-outline .timeline-item:hover .timeline-marker:before {
+  background: white;
+}
+
+/* Extra small devices */
+@media only screen and (max-width: 320px) {
+  h3.timeline-title {
+    margin: 0.25rem 0;
+  }
+}
+
+/* Small devices */
+@media only screen and (min-width: 321px) {
+  h3.timeline-title {
+    margin: 0.75rem 0;
+  }
+}
+
+/* Large devices */
+@media only screen and (min-width: 992px) {
+  h3.timeline-title {
+    margin: 1rem 0;
+  }
 }
