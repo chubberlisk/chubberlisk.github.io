@@ -10,10 +10,11 @@ a {
   text-decoration: none;
   color: white;
   font-family: 'Amatic SC', cursive;
+  margin-right: 1vw;
 }
 
-i {
-  padding-right: 1vw;
+div#email a i, div#cv a i {
+  margin-right: 1vw;
 }
 
 /* Extra small devices */
