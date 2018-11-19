@@ -17,24 +17,24 @@
   <app-a-bit-about-me></app-a-bit-about-me>
 </section>
 <div class="container-fluid a-bit-about-me click-me">
-  <a class="hvr-wobble-bottom" href="#education" (click)="setTitle('Education')">
-    <b><i class="fa fa-angle-down"></i>Let's go down</b>
-  </a>
-</div>
-
-<section class="education" id="education">
-  <app-education></app-education>
-</section>
-<div class="container-fluid education click-me">
   <a class="hvr-wobble-bottom" href="#experience" (click)="setTitle('Experience')">
     <b><i class="fa fa-angle-down"></i>Let's go down</b>
   </a>
 </div>
 
 <section class="experience" id="experience">
-  <app-experience></app-experience>
-</section>
+    <app-experience></app-experience>
+  </section>
 <div class="container-fluid experience click-me">
+  <a class="hvr-wobble-bottom" href="#education" (click)="setTitle('Education')">
+    <b><i class="fa fa-angle-down"></i>Let's go down</b>
+  </a>
+</div>
+
+<section class="education" id="education">
+    <app-education></app-education>
+  </section>
+<div class="container-fluid education click-me">
   <a class="hvr-wobble-bottom" href="#portfolio" (click)="setTitle('Portfolio')">
     <b><i class="fa fa-angle-down"></i>Let's go down</b>
   </a>
