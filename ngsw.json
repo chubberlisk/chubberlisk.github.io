@@ -26,10 +26,11 @@
         "/assets/images/e-zine/cover-screen.jpeg",
         "/assets/images/e-zine/information-screen.jpeg",
         "/assets/images/portfolio/coming-soon.jpg",
-        "/assets/images/portfolio/lp-calculator.png",
+        "/assets/images/portfolio/lp-calculator.gif",
         "/assets/images/portfolio/personal-website.png",
         "/assets/images/tms/home.png",
         "/assets/images/tms/view-lessons.png",
+        "/assets/stylesheets/snackbar.css",
         "/assets/stylesheets/timeline.css"
       ],
       "patterns": [
@@ -52,12 +53,13 @@
     "/assets/images/e-zine/cover-screen.jpeg": "1c32492b4a6aeafadc6268e46fa17cd25ab4eba6",
     "/assets/images/e-zine/information-screen.jpeg": "bf3ea65f2a0bd0a449956bc77103aabda9c22a13",
     "/assets/images/portfolio/coming-soon.jpg": "3eda049f31e9614992ba11483ccfe7def156d550",
-    "/assets/images/portfolio/lp-calculator.png": "9af1859c8d8b51e7067cf5e81ad70186fa6c3a8f",
-    "/assets/images/portfolio/personal-website.png": "06374c12d6722c55ecd4321f289677f91c0326d3",
+    "/assets/images/portfolio/lp-calculator.gif": "295f8abd2161ae2f1e5f1051c2a7730b0392db82",
+    "/assets/images/portfolio/personal-website.png": "649616f57a5446e27ce1385f9848bdd5e6ade3f9",
     "/assets/images/tms/home.png": "51eee317b8d22145277bc2457b110643afe365db",
     "/assets/images/tms/view-lessons.png": "8fe0804761ff30e520b3d547bee1d2ddad8bffd0",
-    "/assets/stylesheets/timeline.css": "e68dd5e3c7edfb6c5fd1ba0559910c65ed65faa3",
-    "/index.html": "37fd9c558d1752e70effa9c2d39efccdb2540fa3"
+    "/assets/stylesheets/snackbar.css": "9de500f554903d185dbc47147331a20d349b3198",
+    "/assets/stylesheets/timeline.css": "45bff8cc042f0a9cf208352325e701653f23a5a0",
+    "/index.html": "6296264f08b28c0bb39d452ac83cf295fe990c6a"
   },
   "navigationUrls": [
     {
