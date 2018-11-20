@@ -47,9 +47,10 @@ export class HomeComponent implements OnInit {
       $(".education").css("background-color", "var(--success)");
       $(".portfolio").css("background-color", "var(--purple)");
       $(".experience").css("background-color", "#D64933");
-      $(".landing, .a-bit-about-me, .education, .experience, .contact-me").css("color", "var(--white)");
+      $(".landing, .a-bit-about-me, .education, .experience, .contact-me").css("color", "white");
       $(".landing h1, a").css("color", "black");
       $(".click-me a, #links a, #contact-me a").css("color", "white");
+      $(".landing.click-me a").css("color", "black");
       $("#change-theme-btn").removeClass("theme-blue");
       $("#change-theme-btn").addClass("theme-multiple");
       $("#change-theme-btn").html("Yellow Theme <i class='fas fa-palette'></i>");

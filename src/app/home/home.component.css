@@ -59,6 +59,10 @@ section.contact-me {
   color: white;
 }
 
+.landing.click-me a {
+  color: black;
+}
+
 .click-me a small {
   font-weight: bold;
 }
