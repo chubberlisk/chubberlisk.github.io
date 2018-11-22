@@ -30,8 +30,8 @@
         "/assets/images/portfolio/personal-website.png",
         "/assets/images/tms/home.png",
         "/assets/images/tms/view-lessons.png",
-        "/assets/stylesheets/snackbar.css",
-        "/assets/stylesheets/timeline.css"
+        "/assets/stylesheets/snackbar.scss",
+        "/assets/stylesheets/timeline.scss"
       ],
       "patterns": [
         "https:\\/\\/fonts\\.googleapis\\.com\\/css\\?family=Lato",
@@ -57,9 +57,9 @@
     "/assets/images/portfolio/personal-website.png": "649616f57a5446e27ce1385f9848bdd5e6ade3f9",
     "/assets/images/tms/home.png": "51eee317b8d22145277bc2457b110643afe365db",
     "/assets/images/tms/view-lessons.png": "8fe0804761ff30e520b3d547bee1d2ddad8bffd0",
-    "/assets/stylesheets/snackbar.css": "9de500f554903d185dbc47147331a20d349b3198",
-    "/assets/stylesheets/timeline.css": "45bff8cc042f0a9cf208352325e701653f23a5a0",
-    "/index.html": "0e3da66d54458414dadd07bc31578cba0064f182"
+    "/assets/stylesheets/snackbar.scss": "816c847d98d59a41603208c812448d6fe50ead5e",
+    "/assets/stylesheets/timeline.scss": "95a143ac18f17a2ec3b56189df838ba30083a2f7",
+    "/index.html": "11346557b35a9f98ec8809baf5f1566930d1e6ae"
   },
   "navigationUrls": [
     {
