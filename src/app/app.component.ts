@@ -6,8 +6,8 @@ import * as $ from 'jquery';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: [
-    './app.component.css',
-    '../assets/stylesheets/snackbar.css'
+    './app.component.scss',
+    '../assets/stylesheets/snackbar.scss'
   ]
 })
 export class AppComponent {

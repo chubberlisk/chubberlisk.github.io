@@ -5,7 +5,7 @@ import { TitleService } from '../title.service'
 @Component({
   selector: 'app-silly',
   templateUrl: './silly.component.html',
-  styleUrls: ['./silly.component.css']
+  styleUrls: ['./silly.component.scss']
 })
 export class SillyComponent implements OnInit {
 

@@ -4,13 +4,9 @@ footer {
   color: white;
 }
 
-p {
-  margin-bottom: 1vh;
-}
+p { margin-bottom: 1vh; }
 
-i {
-  color: white;
-}
+i { color: white; }
 
 a {
   text-decoration: none;
@@ -18,27 +14,19 @@ a {
   font-family: 'Amatic SC', cursive;
 }
 
-div#links {
-  margin-bottom: 2.5vh;
-}
+div#links { margin-bottom: 2.5vh; }
 
 /* Extra small devices */
 @media only screen and (max-width: 320px) {
-  a {
-    font-size: 1.25em;
-  }
+  a { font-size: 1.25em; }
 }
 
 /* Small devices */
 @media only screen and (min-width: 321px) {
-  a {
-    font-size: 1.50em;
-  }
+  a { font-size: 1.50em; }
 }
 
 /* Medium devices */
 @media only screen and (min-width: 768px) {
-  a {
-    font-size: 1.75em;
-  }
+  a { font-size: 1.75em; }
 }

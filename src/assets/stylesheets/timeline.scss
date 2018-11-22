@@ -7,18 +7,19 @@
   padding: 0;
   width: 100%;
 }
-.timeline h1, .timeline h2, .timeline h3, .timeline h4, .timeline h5, .timeline h6 {
-  line-height: inherit;
-}
+.timeline h1,
+.timeline h2,
+.timeline h3,
+.timeline h4,
+.timeline h5,
+.timeline h6 { line-height: inherit; }
 
 .timeline-item {
   padding-left: 40px;
   position: relative;
 }
 
-.timeline-item:last-child {
-  padding-bottom: 0;
-}
+.timeline-item:last-child { padding-bottom: 0; }
 
 .timeline-info {
   margin: 0 0 0.5em 0;
@@ -46,6 +47,7 @@
   width: 15px;
   transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
 }
+
 .timeline-marker:after {
   content: "";
   width: 3px;
@@ -57,29 +59,30 @@
   left: 6px;
 }
 
-.timeline-item:last-child .timeline-marker:after {
-  content: none;
+.timeline-item:last-child {
+  .timeline-marker:after {
+    content: none;
+  }
 }
 
-.timeline-item:not(.period):hover .timeline-marker:before {
-  background: transparent;
-  border: 3px solid white;
+.timeline-item:not(.period):hover {
+  .timeline-marker:before {
+    background: transparent;
+    border: 3px solid white;
+  }
 }
+
+.timeline-content { padding-bottom: 40px; }
 
 .timeline-content {
-  padding-bottom: 40px;
-}
-.timeline-content p:last-child {
-  margin-bottom: 0;
-}
-
-.period {
-  padding: 0;
+  p:last-child {
+    margin-bottom: 0;
+  } 
 }
 
-.period .timeline-info {
-  display: none;
-}
+.period { padding: 0; }
+
+.period .timeline-info { display: none; }
 
 .period .timeline-marker:before {
   background: transparent;
@@ -101,39 +104,34 @@
   top: auto;
 }
 
-.period .timeline-content {
-  padding: 40px 0 70px;
-}
+.period .timeline-content { padding: 40px 0 70px; }
 
-.period .timeline-title {
-  margin: 0;
-}
+.period .timeline-title { margin: 0; }
 
 .marker-outline .timeline-marker:before {
   background: transparent;
   border-color: white;
 }
-.marker-outline .timeline-item:hover .timeline-marker:before {
-  background: white;
+
+.marker-outline {
+  .timeline-item:hover {
+    .timeline-marker:before {
+      background: white;
+    }
+  }
 }
 
 /* Extra small devices */
 @media only screen and (max-width: 320px) {
-  h3.timeline-title {
-    margin: 0.25rem 0;
-  }
+  h3.timeline-title { margin: 0.25rem 0; }
 }
 
 /* Small devices */
 @media only screen and (min-width: 321px) {
-  h3.timeline-title {
-    margin: 0.75rem 0;
-  }
+  h3.timeline-title { margin: 0.75rem 0; }
 }
 
 /* Large devices */
 @media only screen and (min-width: 992px) {
-  h3.timeline-title {
-    margin: 1rem 0;
-  }
+  h3.timeline-title { margin: 1rem 0; }
 }
