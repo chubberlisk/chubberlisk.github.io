@@ -4,8 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-experience',
   templateUrl: './experience.component.html',
   styleUrls: [
-    '../../assets/stylesheets/timeline.css',
-    './experience.component.css'
+    '../../assets/stylesheets/timeline.scss',
+    './experience.component.scss'
   ]
 })
 export class ExperienceComponent implements OnInit {

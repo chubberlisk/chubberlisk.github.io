@@ -1,0 +1,64 @@
+#change-theme-btn {
+  position: fixed;
+  left: 5px;
+  top: 5px;
+  z-index: 3;
+}
+
+.landing {
+  color: black;
+  background-color: var(--w-yellow);
+}
+
+.a-bit-about-me,
+.education,
+.experience,
+.portfolio,
+.contact-me { color: white; }
+
+.a-bit-about-me { background-color: #004385; }
+
+.education { background-color: var(--success); }
+
+.experience { background-color: #D64933; }
+
+.portfolio { background-color: var(--purple); }
+
+.contact-me { background-color: var(--info); }
+
+section.contact-me { min-height: 0; }
+
+.click-me {
+  min-height: 15vh;
+  padding-bottom: 2.5vh;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+
+.click-me a,
+.click-me i { color: white; }
+
+.landing.click-me a,
+.landing.click-me i { color: black; }
+
+.click-me a i {
+  display: block;
+  margin-bottom: 0.75vh;
+}
+
+.click-me a small { font-weight: bold; }
+
+/* Extra small devices */
+@media only screen and (max-width: 320px) {
+  .click-me { font-size: 1.15em; }
+}
+
+/* Small devices */
+@media only screen and (min-width: 321px) {
+  .click-me { font-size: 1.25em; }
+}
+
+/* Medium devices */
+@media only screen and (min-width: 768px) {
+  .click-me { font-size: 1.75em; }
+}

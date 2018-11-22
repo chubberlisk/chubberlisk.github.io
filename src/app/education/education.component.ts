@@ -4,8 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-education',
   templateUrl: './education.component.html',
   styleUrls: [
-    '../../assets/stylesheets/timeline.css',
-    './education.component.css'
+    '../../assets/stylesheets/timeline.scss',
+    './education.component.scss'
   ]
 })
 export class EducationComponent implements OnInit {
