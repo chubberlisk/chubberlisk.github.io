@@ -23,8 +23,9 @@ export class HomeComponent implements OnInit {
     var snackbarMsg = ""
     if ($("#change-theme-btn").hasClass("theme-multiple")) {
       // Dark theme
-      $(".landing, .a-bit-about-me, .education, .experience, .portfolio").css({"background-color": "black", "color": "var(--light)"});
-      $(".contact-me").css({"background-color": "var(--gray)", "color": "var(--light)"});
+      $(".landing, .a-bit-about-me, .education, .experience, .portfolio").css({ "background-color": "#080808", "color": "var(--light)"});
+      $(".contact-me").css({ "background-color": "#101010", "color": "var(--light)"});
+      $("footer").css("background-color", "#181818");
       $("a").css("color", "var(--blue)");
       $(".landing a i, .click-me a, #links a, #contact-me a").css("color", "white");
       $("#change-theme-btn").removeClass("theme-multiple");
@@ -40,6 +41,7 @@ export class HomeComponent implements OnInit {
       $(".experience").css("background-color", "#D64933");
       $(".landing, .a-bit-about-me, .education, .experience, .contact-me").css("color", "white");
       $(".contact-me").css({"background-color": "var(--cyan)", "color": "var(--white)"});
+      $("footer").css("background-color", "var(--dark)");
       $(".landing, a").css("color", "black");
       $(".click-me a, #links a, #contact-me a").css("color", "white");
       $(".landing.click-me a, .landing.click-me i").css("color", "black");
