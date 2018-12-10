@@ -25,3 +25,6 @@ A personal website for this Ting, acts as an informal CV and portfolio.
 ## Releases
 - [Semantic Versioning](https://semver.org/) will be followed.
 - Each **major** release will have a codename which will begin with A until Z and be named after a Yu-Gi-Oh! card owned by _Seto Kaiba_.
+
+## Commit Messages
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/) will be followed.
