@@ -16,19 +16,17 @@ div#cv a i { margin-right: 1vw; }
 @media only screen and (max-width: 320px) {
   a { font-size: 1.25em; }
 
-  img { content:url("/assets/icons/icon-48x48.png"); }
+  img { width: 50px; }
 }
 
 /* Small devices */
 @media only screen and (min-width: 321px) {
   a { font-size: 1.50em; }
 
-  img { content:url("/assets/icons/icon-48x48.png"); }
+  img { width: 72px; }
 }
 
 /* Medium devices */
 @media only screen and (min-width: 768px) {
   a { font-size: 1.75em; }
-
-  img { content:url("/assets/icons/icon-72x72.png"); }
 }
