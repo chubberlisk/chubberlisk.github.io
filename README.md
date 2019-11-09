@@ -1,4 +1,4 @@
-# Personal Website for Wen Ting Wang
+# Personal Website for Wen Ting Wang (v1)
 
 A personal website for this Ting, acts as an informal CV and portfolio.
 
