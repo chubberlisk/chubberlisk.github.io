@@ -11,3 +11,4 @@ deploy:
   target_branch: master
   on:
     branch: release-v2
+  fqdn: wentingwang.co.uk
