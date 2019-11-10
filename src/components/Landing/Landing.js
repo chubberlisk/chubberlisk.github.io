@@ -1,10 +1,10 @@
 import React from "react"
 
-import "./landing.scss"
+import "./Landing.scss"
 
 const Landing = () => (
   <>
-    <section className="landing">
+    <section id="landing">
       <div className="container text-center">
         <h1>Hi there!</h1>
         <h1>

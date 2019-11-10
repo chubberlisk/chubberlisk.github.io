@@ -10,6 +10,6 @@ describe("User visits home page", function() {
   }
 
   function thenISeeTheWelcomeText() {
-    cy.get(".landing").should("include.text", "Hi there!")
+    cy.get("#landing").should("include.text", "Hi there!")
   }
 })
