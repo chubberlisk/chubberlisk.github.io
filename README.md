@@ -49,10 +49,7 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+* yarn - see [installation guide](https://yarnpkg.com/en/docs/getting-started)
 
 ### Installation
  
@@ -60,9 +57,9 @@ npm install npm@latest -g
 ```sh
 git clone https://github.com/chubberlisk/chubberlisk.github.io.git
 ```
-2. Install NPM packages
+2. Install packages
 ```sh
-npm install
+yarn
 ```
 
 ## Usage
