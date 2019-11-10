@@ -24,7 +24,7 @@ jobs:
     - stage: "Run tests"
       name: "Run tests - unit tests"
       script: yarn test
-    - script: yarn test:e2e:ci
+    - script: yarn test:e2e
       name: "Run tests - end-to-end tests"
     - stage: "Run deployment"
       script: skip

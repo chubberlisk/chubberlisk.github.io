@@ -47,9 +47,10 @@
     "cy:open": "cypress open",
     "cy:run": "cypress run",
     "cy:verify": "cypress verify",
-    "test": "jest",
-    "test:e2e": "yarn start-server-and-test develop http://localhost:8000 cy:open",
-    "test:e2e:ci": "yarn start-server-and-test develop http://localhost:8000 cy:run",
+    "test": "yarn lint && yarn jest && yarn test:e2e",
+    "test:unit": "yarn jest",
+    "test:e2e": "yarn start-server-and-test 'gatsby develop --port 8001' http://localhost:8001 cy:run",
+    "test:e2e:interactive": "yarn start-server-and-test 'gatsby develop --port 8001' http://localhost:8001 cy:open",
     "deploy": "gatsby build && gh-pages -d public -r https://$GH_TOKEN@github.com/chubberlisk/chubberlisk.github.io.git -b master"
   },
   "repository": {

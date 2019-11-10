@@ -2,7 +2,7 @@
 
 exports[`Landing renders correctly 1`] = `
 <section
-  className="landing"
+  id="landing"
 >
   <div
     className="container text-center"

@@ -1,7 +1,7 @@
 import React from "react"
 import renderer from "react-test-renderer"
 
-import Landing from "./landing"
+import Landing from "./Landing"
 
 describe("Landing", () => {
   it("renders correctly", () => {
