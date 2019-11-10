@@ -1,11 +1,28 @@
 language: node_js
-before_script:
-  - npm install -g gatsby-cli
+
 node_js:
-  - "10"
+  - 10
+
+addons:
+  apt:
+    packages:
+      - libgconf-2-4
+
 deploy:
   provider: script
-  script: npm install && npm run deploy
+  script: yarn install && yarn run deploy
   skip_cleanup: true
   on:
     branch: release-v2
+
+cache:
+  yarn: true
+  directories:
+    - ~/.cache
+
+install:
+  - npm config set scripts-prepend-node-path true
+  - yarn install --frozen-lockfile
+
+script:
+  - yarn test:e2e:ci
