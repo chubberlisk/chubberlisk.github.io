@@ -6,16 +6,16 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "gatsby": "^2.17.6",
+    "gatsby": "^2.17.10",
     "gatsby-image": "^2.2.30",
-    "gatsby-plugin-manifest": "^2.2.25",
-    "gatsby-plugin-offline": "^3.0.17",
+    "gatsby-plugin-manifest": "^2.2.26",
+    "gatsby-plugin-offline": "^3.0.18",
     "gatsby-plugin-react-helmet": "^3.1.13",
     "gatsby-plugin-sass": "^2.1.20",
-    "gatsby-plugin-sharp": "^2.2.34",
+    "gatsby-plugin-sharp": "^2.2.36",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.1.35",
-    "gatsby-transformer-sharp": "^2.3.1",
+    "gatsby-transformer-sharp": "^2.3.2",
     "node-sass": "^4.13.0",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
@@ -25,11 +25,13 @@
   "devDependencies": {
     "babel-jest": "^24.9.0",
     "babel-preset-gatsby": "^0.2.20",
+    "cypress": "^3.6.1",
     "gh-pages": "^2.1.1",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
-    "prettier": "^1.18.2",
-    "react-test-renderer": "^16.11.0"
+    "prettier": "^1.19.1",
+    "react-test-renderer": "^16.11.0",
+    "start-server-and-test": "^1.10.6"
   },
   "keywords": [
     "gatsby"
@@ -42,6 +44,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "jest",
+    "cy:open": "cypress open",
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cy:open",
     "deploy": "gatsby build && gh-pages -d public -r https://$GH_TOKEN@github.com/chubberlisk/chubberlisk.github.io.git -b master"
   },
   "repository": {
