@@ -8,13 +8,6 @@ addons:
     packages:
       - libgconf-2-4
 
-deploy:
-  provider: script
-  script: yarn install && yarn run deploy
-  skip_cleanup: true
-  on:
-    branch: release-v2
-
 cache:
   yarn: true
   directories:
@@ -24,5 +17,20 @@ install:
   - npm config set scripts-prepend-node-path true
   - yarn install --frozen-lockfile
 
-script:
-  - yarn test:e2e:ci
+jobs:
+  include:
+    - stage: "Run linting"
+      script: yarn lint
+    - stage: "Run tests"
+      name: "Run tests - unit tests"
+      script: yarn test
+    - script: yarn test:e2e:ci
+      name: "Run tests - end-to-end tests"
+    - stage: "Run deployment"
+      script: skip
+      deploy:
+        provider: script
+        script: yarn run deploy
+        skip_cleanup: true
+        on:
+          branch: release-v2
