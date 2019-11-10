@@ -40,6 +40,8 @@ This is the personal website for Wen Ting Wang. Originally, it served as an info
 
 - [Gatsby](https://www.gatsbyjs.org/)
 - [Bootstrap](https://getbootstrap.com/)
+- [Jest](https://jestjs.io/)
+- [Cypress](https://www.cypress.io/)
 
 ## Getting Started
 
@@ -59,7 +61,7 @@ This is an example of how to list things you need to use the software and how to
 git clone https://github.com/chubberlisk/chubberlisk.github.io.git
 ```
 
-2. Install packages
+2. Install packages in `chubberlisk.github.io` directory
 
 ```sh
 yarn
@@ -67,13 +69,41 @@ yarn
 
 ## Usage
 
-To run the application:
+### Running the application
+
+To run the application use the `develop` script:
 
 ```sh
-gatsby develop
+yarn develop
 ```
 
 Then visit [http:localhost:8000]().
+
+### Running the tests
+
+To run all tests (with linting):
+
+```sh
+yarn test
+```
+
+To run just the unit tests using [Jest](https://jestjs.io/):
+
+```sh
+yarn test:unit
+```
+
+To run just the end-to-end tests using [Cypress](https://www.cypress.io/):
+
+```sh
+yarn test:e2e
+```
+
+To interactively run the end-to-end tests:
+
+```sh
+yarn test:e2e:interactive
+```
 
 ## Branches
 
