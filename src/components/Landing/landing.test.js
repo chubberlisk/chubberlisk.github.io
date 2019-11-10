@@ -5,9 +5,7 @@ import Landing from "./landing"
 
 describe("Landing", () => {
   it("renders correctly", () => {
-    const tree = renderer
-      .create(<Landing />)
-      .toJSON()
+    const tree = renderer.create(<Landing />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })
