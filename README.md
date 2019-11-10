@@ -22,15 +22,15 @@
 
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Branches](#branches)
-* [Releases](#releases)
-* [License](#license)
+- [About the Project](#about-the-project)
+  - [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Branches](#branches)
+- [Releases](#releases)
+- [License](#license)
 
 ## About The Project
 
@@ -38,9 +38,8 @@ This is the personal website for Wen Ting Wang. Originally, it served as an info
 
 ### Built With
 
-* [Gatsby](https://www.gatsbyjs.org/)
-* [Bootstrap](https://getbootstrap.com/)
-
+- [Gatsby](https://www.gatsbyjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
 
 ## Getting Started
 
@@ -49,25 +48,27 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+
+- yarn - see [installation guide](https://yarnpkg.com/en/docs/getting-started)
 
 ### Installation
- 
+
 1. Clone the repo
+
 ```sh
 git clone https://github.com/chubberlisk/chubberlisk.github.io.git
 ```
-2. Install NPM packages
+
+2. Install packages
+
 ```sh
-npm install
+yarn
 ```
 
 ## Usage
 
 To run the application:
+
 ```sh
 gatsby develop
 ```
@@ -77,13 +78,16 @@ Then visit [http:localhost:8000]().
 ## Branches
 
 ### `master`
+
 - Contains the production files for the Gatsby application.
 - Used by GitHub Pages to host the personal website.
 
 ### `release`
+
 - Contains all the files to build the production files.
 
 ## Releases
+
 - [Semantic Versioning](https://semver.org/) will be followed.
 - Each **major** release will have a codename which will begin with A until Z and be named after a Yu-Gi-Oh! card owned by _Seto Kaiba_.
 

@@ -1,11 +1,36 @@
 language: node_js
-before_script:
-  - npm install -g gatsby-cli
+
 node_js:
-  - "10"
-deploy:
-  provider: script
-  script: npm install && npm run deploy
-  skip_cleanup: true
-  on:
-    branch: release-v2
+  - 10
+
+addons:
+  apt:
+    packages:
+      - libgconf-2-4
+
+cache:
+  yarn: true
+  directories:
+    - ~/.cache
+
+install:
+  - npm config set scripts-prepend-node-path true
+  - yarn install --frozen-lockfile
+
+jobs:
+  include:
+    - stage: "Run linting"
+      script: yarn lint
+    - stage: "Run tests"
+      name: "Run tests - unit tests"
+      script: yarn test
+    - script: yarn test:e2e:ci
+      name: "Run tests - end-to-end tests"
+    - stage: "Run deployment"
+      script: skip
+      deploy:
+        provider: script
+        script: yarn run deploy
+        skip_cleanup: true
+        on:
+          branch: release-v2
