@@ -3,19 +3,9 @@ language: node_js
 node_js:
   - 10
 
-addons:
-  apt:
-    packages:
-      - libgconf-2-4
-
 cache:
-  yarn: true
   directories:
     - ~/.cache
-
-install:
-  - npm config set scripts-prepend-node-path true
-  - yarn install --frozen-lockfile
 
 jobs:
   include:
@@ -23,7 +13,7 @@ jobs:
       script: yarn lint
     - stage: "Run tests"
       name: "Run tests - unit tests"
-      script: yarn test
+      script: yarn test:unit
     - script: yarn test:e2e
       name: "Run tests - end-to-end tests"
     - stage: "Run deployment"
