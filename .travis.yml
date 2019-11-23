@@ -22,5 +22,6 @@ jobs:
         provider: script
         script: yarn run deploy
         skip_cleanup: true
+        committer_from_gh: true
         on:
           branch: release-v2
