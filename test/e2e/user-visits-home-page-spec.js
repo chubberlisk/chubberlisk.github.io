@@ -3,6 +3,7 @@ describe("User visits home page", function() {
     whenIVisitTheHomePage()
 
     thenISeeTheWelcomeText()
+    andISeeAFooter()
   })
 
   function whenIVisitTheHomePage() {
@@ -11,5 +12,9 @@ describe("User visits home page", function() {
 
   function thenISeeTheWelcomeText() {
     cy.get("#landing").should("include.text", "Hi there!")
+  }
+
+  function andISeeAFooter() {
+    cy.get("footer").should("include.text", `© 2019 Copyright: Wen Ting Wang`)
   }
 })
