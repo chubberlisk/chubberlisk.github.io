@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<footer
+  className="text-center"
+>
+  <p
+    id="copyright-text"
+  >
+    <small>
+      © 2019 Copyright: Wen Ting Wang
+    </small>
+  </p>
+</footer>
+`;
