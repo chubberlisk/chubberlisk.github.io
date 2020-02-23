@@ -3,6 +3,8 @@ describe("User visits home page", function() {
     whenIVisitTheHomePage()
 
     thenISeeTheWelcomeText()
+    andISeeTheSlogan()
+    andISeeTheGitHubLink()
     andISeeAFooter()
   })
 
@@ -14,7 +16,20 @@ describe("User visits home page", function() {
     cy.get("#landing").should("include.text", "Hi there!")
   }
 
+  function andISeeTheSlogan() {
+    cy.get("section#contact-me").should(
+      "include.text",
+      "Let's develop Tings together."
+    )
+  }
+
+  function andISeeTheGitHubLink() {
+    cy.get("section#contact-me a")
+      .should("have.attr", "href")
+      .and("include", "https://github.com/chubberlisk")
+  }
+
   function andISeeAFooter() {
-    cy.get("footer").should("include.text", `© 2019 Copyright: Wen Ting Wang`)
+    cy.get("footer").should("include.text", "© 2020 Copyright: Wen Ting Wang")
   }
 })
