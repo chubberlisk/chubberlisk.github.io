@@ -1,0 +1,18 @@
+section#contact-me {
+  min-height: 15vh;
+  background-color: var(--info);
+}
+
+ul { padding: 0; }
+
+li { list-style: none; }
+
+a.social-link {
+  color: white;
+  font-size: xx-large;
+  text-align: center;
+}
+
+a.social-link:hover {
+  color: black;
+}
