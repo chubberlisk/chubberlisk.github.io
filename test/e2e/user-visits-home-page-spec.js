@@ -17,7 +17,10 @@ describe("User visits home page", function() {
   }
 
   function andISeeTheSlogan() {
-    cy.get("section#contact-me").should("include.text", "Let's develop Tings together.")
+    cy.get("section#contact-me").should(
+      "include.text",
+      "Let's develop Tings together."
+    )
   }
 
   function andISeeTheGitHubLink() {
@@ -27,6 +30,6 @@ describe("User visits home page", function() {
   }
 
   function andISeeAFooter() {
-    cy.get("footer").should("include.text", "© 2019 Copyright: Wen Ting Wang")
+    cy.get("footer").should("include.text", "© 2020 Copyright: Wen Ting Wang")
   }
 })

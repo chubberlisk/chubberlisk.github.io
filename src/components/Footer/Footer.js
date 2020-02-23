@@ -6,7 +6,7 @@ const Footer = () => (
   <>
     <footer className="text-center">
       <p id="copyright-text">
-        <small>© 2019 Copyright: Wen Ting Wang</small>
+        <small>© 2020 Copyright: Wen Ting Wang</small>
       </p>
     </footer>
   </>
