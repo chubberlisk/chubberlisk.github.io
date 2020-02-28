@@ -1,11 +1,11 @@
-### Context
+## Context
 
-Why are you making this change? What might surprise someone about it?
+<!-- Why are you making this change? What might surprise someone about it? -->
 
-### Changes proposed in this pull request
+## Changes proposed in this pull request
 
-If there are UI changes, please include Before and After screenshots.
+<!-- If there are UI changes, please include Before and After screenshots. -->
 
-### Guidance to review
+## Guidance to review
 
-How could someone else check this work? Which parts do you want more feedback on?
+<!-- How could someone else check this work? Which parts do you want more feedback on? -->
