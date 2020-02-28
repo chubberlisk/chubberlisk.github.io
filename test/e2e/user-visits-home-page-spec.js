@@ -1,10 +1,11 @@
 describe("User visits home page", function() {
-  it("shows the landing section", function() {
+  it("shows the landing and contact me section", function() {
     whenIVisitTheHomePage()
 
     thenISeeTheWelcomeText()
     andISeeTheSlogan()
     andISeeTheGitHubLink()
+    andISeeTheLinkedInLink()
     andISeeAFooter()
   })
 
@@ -24,9 +25,15 @@ describe("User visits home page", function() {
   }
 
   function andISeeTheGitHubLink() {
-    cy.get("section#contact-me a")
+    cy.get("section#contact-me a:nth-child(1)")
       .should("have.attr", "href")
       .and("include", "https://github.com/chubberlisk")
+  }
+
+  function andISeeTheLinkedInLink() {
+    cy.get("section#contact-me a:nth-child(2)")
+      .should("have.attr", "href")
+      .and("include", "https://www.linkedin.com/in/wen-ting-wang")
   }
 
   function andISeeAFooter() {

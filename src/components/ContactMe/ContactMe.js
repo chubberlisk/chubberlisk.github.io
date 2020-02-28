@@ -1,6 +1,6 @@
 import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 import "./ContactMe.scss"
 
@@ -20,18 +20,30 @@ const ContactMe = () => (
               <br />
               <small>Let's develop Tings together.</small>
             </h4>
-            <a
-              href="https://github.com/chubberlisk"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Wen Ting Wang's GitHub Profile"
-              data-toggle="tooltip"
-              data-placement="top"
-              title="GitHub - Chubberlisk"
-              className="social-link"
-            >
-              <FontAwesomeIcon icon={faGithub} />
-            </a>
+            <div id="social-links">
+              <a
+                href="https://github.com/chubberlisk"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Wen Ting Wang's GitHub Profile"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="GitHub - Chubberlisk"
+              >
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/wen-ting-wang"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Wen Ting Wang's LinkedIn Profile"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="LinkedIn - Chubberlisk"
+              >
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+            </div>
           </div>
         </div>
       </div>
