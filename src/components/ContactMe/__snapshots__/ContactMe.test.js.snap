@@ -16,7 +16,8 @@ exports[`ContactMe renders correctly 1`] = `
         <img
           alt="Wen Ting Wang Icon"
           className="img-fluid"
-          src="/icons/icon-72x72.png"
+          id="icon"
+          src="/icons/icon-512x512.png"
         />
         <h4>
           <b>

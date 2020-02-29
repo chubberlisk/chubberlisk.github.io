@@ -11,9 +11,10 @@ const ContactMe = () => (
         <div className="row">
           <div className="col">
             <img
-              src="/icons/icon-72x72.png"
+              src="/icons/icon-512x512.png"
               className="img-fluid"
               alt="Wen Ting Wang Icon"
+              id="icon"
             />
             <h4>
               <b>Wen Ting Wang</b>
