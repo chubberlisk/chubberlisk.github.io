@@ -1,5 +1,6 @@
 @import 'custom';
 @import "~bootstrap/scss/bootstrap";
+@import "~hover.css/css/hover-min";
 
 html { scroll-behavior: smooth; }
 
@@ -9,7 +10,7 @@ body {
 }
 
 section {
-  min-height: 100vh;
+  min-height: 85vh;
   padding: 2.5vh;
   position: relative;
   display: flex;

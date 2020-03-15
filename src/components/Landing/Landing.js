@@ -1,4 +1,5 @@
 import React from "react"
+import NextSection from "../NextSection/NextSection"
 
 import "./Landing.scss"
 
@@ -12,13 +13,14 @@ const Landing = () => (
         </h1>
         <h1>But you can just call me</h1>
         <h1>
-          <mark>
+          <mark className="hvr-buzz">
             <b>Ting</b>
           </mark>
           .
         </h1>
       </div>
     </section>
+    <NextSection href="#about-me" color="black" />
   </>
 )
 
