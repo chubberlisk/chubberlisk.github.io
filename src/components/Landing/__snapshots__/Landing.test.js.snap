@@ -1,33 +1,77 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Landing renders correctly 1`] = `
-<section
-  id="landing"
->
-  <div
-    className="container text-center"
+Array [
+  <section
+    id="landing"
   >
-    <h1>
-      Hi there!
-    </h1>
-    <h1>
-      My name is 
-      <b>
-        Wen Ting Wang
-      </b>
-      .
-    </h1>
-    <h1>
-      But you can just call me
-    </h1>
-    <h1>
-      <mark>
+    <div
+      className="container text-center"
+    >
+      <h1>
+        Hi there!
+      </h1>
+      <h1>
+        My name is 
         <b>
-          Ting
+          Wen Ting Wang
         </b>
-      </mark>
-      .
-    </h1>
-  </div>
-</section>
+        .
+      </h1>
+      <h1>
+        But you can just call me
+      </h1>
+      <h1>
+        <mark
+          className="hvr-buzz"
+        >
+          <b>
+            Ting
+          </b>
+        </mark>
+        .
+      </h1>
+    </div>
+  </section>,
+  <div
+    className="container-fluid next-section"
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+  >
+    <a
+      className="hvr-wobble-bottom"
+      href="#about-me"
+      style={
+        Object {
+          "color": "black",
+        }
+      }
+    >
+      <b>
+        <svg
+          aria-hidden="true"
+          className="svg-inline--fa fa-angle-down fa-w-10 fa-lg "
+          data-icon="angle-down"
+          data-prefix="fas"
+          focusable="false"
+          role="img"
+          style={Object {}}
+          viewBox="0 0 320 512"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M143 352.3L7 216.3c-9.4-9.4-9.4-24.6 0-33.9l22.6-22.6c9.4-9.4 24.6-9.4 33.9 0l96.4 96.4 96.4-96.4c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9l-136 136c-9.2 9.4-24.4 9.4-33.8 0z"
+            fill="currentColor"
+            style={Object {}}
+          />
+        </svg>
+        <br />
+        Let's go down
+      </b>
+    </a>
+  </div>,
+]
 `;

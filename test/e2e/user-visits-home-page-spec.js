@@ -3,7 +3,7 @@ describe("User visits home page", function() {
     whenIVisitTheHomePage()
 
     thenISeeTheWelcomeText()
-    thenISeeABitAboutMe()
+    andISeeABitAboutMe()
     andISeeTheSlogan()
     andISeeTheGitHubLink()
     andISeeTheLinkedInLink()
@@ -18,7 +18,7 @@ describe("User visits home page", function() {
     cy.get("section#landing").should("include.text", "Hi there!")
   }
 
-  function thenISeeABitAboutMe() {
+  function andISeeABitAboutMe() {
     cy.get("section#about-me").should("include.text", "A bit about me")
   }
 

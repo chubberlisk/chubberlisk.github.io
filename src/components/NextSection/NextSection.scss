@@ -1,0 +1,23 @@
+.next-section {
+  min-height: 15vh;
+  padding-bottom: 2.5vh;
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+
+  a { text-decoration: none; }
+}
+
+/* Extra small devices */
+@media only screen and (max-width: 320px) {
+  .next-section { font-size: 1.15em; }
+}
+
+/* Small devices */
+@media only screen and (min-width: 321px) {
+  .next-section { font-size: 1.25em; }
+}
+
+/* Medium devices */
+@media only screen and (min-width: 768px) {
+  .next-section { font-size: 1.75em; }
+}
