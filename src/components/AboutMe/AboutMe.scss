@@ -11,5 +11,12 @@ section#about-me {
     border-radius: 0;
   }
 
-  .card-body { padding: 1rem; }
+  .card-body {
+    padding: 1.5rem 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
