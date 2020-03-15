@@ -42,7 +42,7 @@ exports[`AboutMe renders correctly 1`] = `
         className="col-6 col-md-4 col-xl"
       >
         <div
-          className="card card-default"
+          className="card card-default h-100"
         >
           <div
             className="card-body"
@@ -64,7 +64,6 @@ exports[`AboutMe renders correctly 1`] = `
                 style={Object {}}
               />
             </svg>
-            <br />
             Puns
           </div>
         </div>
@@ -73,7 +72,7 @@ exports[`AboutMe renders correctly 1`] = `
         className="col-6 col-md-4 col-xl"
       >
         <div
-          className="card card-default"
+          className="card card-default h-100"
         >
           <div
             className="card-body"
@@ -95,7 +94,6 @@ exports[`AboutMe renders correctly 1`] = `
                 style={Object {}}
               />
             </svg>
-            <br />
             Microsoft Paint
           </div>
         </div>
@@ -104,7 +102,7 @@ exports[`AboutMe renders correctly 1`] = `
         className="col-6 col-md-4 col-xl"
       >
         <div
-          className="card card-default"
+          className="card card-default h-100"
         >
           <div
             className="card-body"
@@ -126,7 +124,6 @@ exports[`AboutMe renders correctly 1`] = `
                 style={Object {}}
               />
             </svg>
-            <br />
             Microsoft Photos
           </div>
         </div>
@@ -135,7 +132,7 @@ exports[`AboutMe renders correctly 1`] = `
         className="col-6 col-md-4 col-xl"
       >
         <div
-          className="card card-default"
+          className="card card-default h-100"
         >
           <div
             className="card-body"
@@ -157,7 +154,6 @@ exports[`AboutMe renders correctly 1`] = `
                 style={Object {}}
               />
             </svg>
-            <br />
             Gaming
           </div>
         </div>
@@ -166,7 +162,7 @@ exports[`AboutMe renders correctly 1`] = `
         className="col-6 col-md-4 col-xl"
       >
         <div
-          className="card card-default"
+          className="card card-default h-100"
         >
           <div
             className="card-body"
@@ -188,7 +184,6 @@ exports[`AboutMe renders correctly 1`] = `
                 style={Object {}}
               />
             </svg>
-            <br />
             Ukulele
           </div>
         </div>
@@ -197,7 +192,7 @@ exports[`AboutMe renders correctly 1`] = `
         className="col-6 col-md-4 col-xl"
       >
         <div
-          className="card card-default"
+          className="card card-default h-100"
         >
           <div
             className="card-body"
@@ -219,7 +214,6 @@ exports[`AboutMe renders correctly 1`] = `
                 style={Object {}}
               />
             </svg>
-            <br />
             Football
           </div>
         </div>

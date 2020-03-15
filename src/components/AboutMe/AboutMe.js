@@ -41,55 +41,49 @@ const AboutMe = () => (
       <h3>Interests</h3>
       <div className="row">
         <div className="col-6 col-md-4 col-xl">
-          <div className="card card-default">
+          <div className="card card-default h-100">
             <div className="card-body">
               <FontAwesomeIcon icon={faLaughSquint} size="lg" />
-              <br />
               Puns
             </div>
           </div>
         </div>
         <div className="col-6 col-md-4 col-xl">
-          <div className="card card-default">
+          <div className="card card-default h-100">
             <div className="card-body">
               <FontAwesomeIcon icon={faPaintBrush} size="lg" />
-              <br />
               Microsoft Paint
             </div>
           </div>
         </div>
         <div className="col-6 col-md-4 col-xl">
-          <div className="card card-default">
+          <div className="card card-default h-100">
             <div className="card-body">
               <FontAwesomeIcon icon={faPhotoVideo} size="lg" />
-              <br />
               Microsoft Photos
             </div>
           </div>
         </div>
         <div className="col-6 col-md-4 col-xl">
-          <div className="card card-default">
+          <div className="card card-default h-100">
             <div className="card-body">
               <FontAwesomeIcon icon={faGamepad} size="lg" />
-              <br />
               Gaming
             </div>
           </div>
         </div>
         <div className="col-6 col-md-4 col-xl">
-          <div className="card card-default">
+          <div className="card card-default h-100">
             <div className="card-body">
               <FontAwesomeIcon icon={faMusic} size="lg" />
-              <br />
               Ukulele
             </div>
           </div>
         </div>
         <div className="col-6 col-md-4 col-xl">
-          <div className="card card-default">
+          <div className="card card-default h-100">
             <div className="card-body">
               <FontAwesomeIcon icon={faFutbol} size="lg" />
-              <br />
               Football
             </div>
           </div>
