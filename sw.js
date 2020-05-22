@@ -27,36 +27,36 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-8ca9ace424e5b13a926c.js"
+    "url": "webpack-runtime-d76ce9918d0a76d4473a.js"
   },
   {
-    "url": "styles.a30fb570bbabb8ad1cf4.css"
+    "url": "styles.de86a448422d7d84a440.css"
   },
   {
-    "url": "styles-3eb3a47640d2b18a5207.js"
+    "url": "styles-9b6f388623a2ec93d35f.js"
   },
   {
-    "url": "commons-89790af9da2ff933cda9.js"
+    "url": "framework-90f0b3ff04962f883af6.js"
   },
   {
-    "url": "app-e0d813d0779412f0e4f0.js"
-  },
-  {
-    "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-8e1bd2058897956a79d3.js"
+    "url": "app-f1ff72a8576c16bda30b.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "0af5704e7ed63e07560a433b853d0a64"
+    "revision": "de2ca44178dcd03ada24484b891a6666"
+  },
+  {
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-3ecdc9640efe42acf30e.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "9d8f6b4fde007be52331b226b393238f"
+    "revision": "de7aab2016cc2e283b72194a70924742"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, new workbox.strategies.NetworkFirst(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 
@@ -99,7 +99,7 @@ function handleAPIRequest({ event }) {
   const params = pathname.match(/:(.+)/)[1]
   const data = {}
 
-  if (params.indexOf(`=`) !== -1) {
+  if (params.includes(`=`)) {
     params.split(`&`).forEach(param => {
       const [key, val] = param.split(`=`)
       data[key] = val
@@ -143,7 +143,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-e0d813d0779412f0e4f0.js`))) {
+  if (!resources || !(await caches.match(`/app-f1ff72a8576c16bda30b.js`))) {
     return await fetch(event.request)
   }
 
