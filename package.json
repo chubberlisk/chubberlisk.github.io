@@ -30,7 +30,7 @@
   },
   "devDependencies": {
     "babel-jest": "^24.9.0",
-    "babel-preset-gatsby": "^0.2.35",
+    "babel-preset-gatsby": "^0.4.7",
     "cypress": "^4.7.0",
     "gh-pages": "^2.1.1",
     "identity-obj-proxy": "^3.0.0",
