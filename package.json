@@ -29,7 +29,7 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "babel-jest": "^24.9.0",
+    "babel-jest": "^26.0.1",
     "babel-preset-gatsby": "^0.2.35",
     "cypress": "^4.7.0",
     "gh-pages": "^2.1.1",
