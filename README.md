@@ -9,10 +9,10 @@
   <h3 align="center">Wen Ting Wang</h3>
 
   <p align="center">
-    A personal website for Wen Ting Wang.
+    A personal website for Wen Ting Wang (v2). Check out the new <a href="https://github.com/chubberlisk/chubberlisk">version (v3)</a>.
     <br />
     <br />
-    <a href="https://wentingwang.co.uk">View Site</a>
+    <a href=https://chubberlisk.github.io/">View Site</a>
     ·
     <a href="https://github.com/chubberlisk/chubberlisk.github.io/issues">Report Bug</a>
     ·
