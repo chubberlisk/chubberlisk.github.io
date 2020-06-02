@@ -9,7 +9,7 @@
   <h3 align="center">Wen Ting Wang</h3>
 
   <p align="center">
-    A personal website for Wen Ting Wang (v2). Check out the new <a href="https://github.com/chubberlisk/chubberlisk">version (v3)</a>.
+    A personal website for Wen Ting Wang (v2). Check out the <a href="https://github.com/chubberlisk/chubberlisk">new version (v3)</a>.
     <br />
     <br />
     <a href=https://chubberlisk.github.io/">View Site</a>
